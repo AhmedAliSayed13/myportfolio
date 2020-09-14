@@ -105,28 +105,44 @@
           <h2>My Projects</h2>
           <hr class="break">
           <div class="row">
-              <div class="col-lg-4 col-md-6 col-xs-12">
+              <ul class="filter-links">
+                  <li><a href="#">All</a></li>
+                  <li><a href="#">Javascript</a></li>
+                  <li><a href="#">Html</a></li>
+                  <li><a href="#">Css</a></li>
+                  <li><a href="#">Php</a></li>
+              </ul>
+          </div>
+          <div class="row filter-sections">
+              <div class="col-lg-4 col-md-6 col-xs-12 javascript">
 
                       <a href="http://35.156.184.175/wakala/" class="project d-block wow fadeInDown" data-wow-delay="0.2s">
                           <h5 class="text-center">Website For Ministry of Education in Saudi Arabia</h5>
                       </a>
               </div>
-              <div class="col-lg-4 col-md-6 col-xs-12">
+
+              <div class="col-lg-4 col-md-6 col-xs-12 javascript">
+
+                      <a href="http://35.156.184.175/wakala/" class="project d-block wow fadeInDown" data-wow-delay="0.2s">
+                          <h5 class="text-center">Website For Ministry of Education in Saudi Arabia</h5>
+                      </a>
+              </div>
+              <div class="col-lg-4 col-md-6 col-xs-12 html">
                       <a href="#" class="project d-block wow fadeInUp" data-wow-delay="0.4s">
                           <h5 class="text-center">Website for Ministry of Education in Saudi Arabia to show Statistics</h5>
                       </a>
               </div>
-              <div class="col-lg-4 col-md-6 col-xs-12">
+              <div class="col-lg-4 col-md-6 col-xs-12 html">
                       <a href="http://moebuilding-kpi.com/public/login" class="project d-block wow fadeInDown" data-wow-delay="0.6s">
                           <h5 class="text-center">Website For agency building of Ministry of Education in Saudi Arabia</h5>
                       </a>
               </div>
-              <div class="col-lg-4 col-md-6 col-xs-12">
+              <div class="col-lg-4 col-md-6 col-xs-12 Css">
                       <a href="http://www.pksaudi.com/" class="project d-block wow fadeInUp" data-wow-delay="0.2s">
                           <h5 class="text-center">Website For PK Company</h5>
                       </a>
               </div>
-              <div class="col-lg-4 col-md-6 col-xs-12">
+              <div class="col-lg-4 col-md-6 col-xs-12 Css">
 
 
                       <a href="http://jumeirah-rs.com/website" class="project d-block wow fadeInDown" data-wow-delay="0.4s">
@@ -135,7 +151,7 @@
 
 
               </div>
-              <div class="col-lg-4 col-md-6 col-xs-12">
+              <div class="col-lg-4 col-md-6 col-xs-12 Php">
 
 
                       <a href="http://167.172.191.180/" class="project d-block wow fadeInUp" data-wow-delay="0.6s">
@@ -143,7 +159,7 @@
                       </a>
 
               </div>
-              <div class="col-lg-4 col-md-6 col-xs-12">
+              <div class="col-lg-4 col-md-6 col-xs-12 Php">
                       <a href="https://www.apptrainers.com/" class="project d-block wow fadeInDown" data-wow-delay="0.2s">
                           <h5 class="text-center">Website For apptrainers Company</h5>
                       </a>
