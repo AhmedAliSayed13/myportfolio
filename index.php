@@ -4,9 +4,9 @@
         <meta charset='UTF-8'>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content=" portfolio web developer front end">
-        <meta name="keywords" content="portfolio web developer front end">
-        <meta name="author" content="Amal_Elsa3ed">
+        <meta name="description" content=" portfolio web developer">
+        <meta name="keywords" content="portfolio web developer">
+        <meta name="author" content="Ahmed_Ali">
         <title>My Portfolio</title>
         <link rel='stylesheet' href='css/bootstrap.css' />
         <link rel='stylesheet' href='css/animate.css'>
@@ -33,7 +33,7 @@
 
         <div class=" navbar-collapse collapse hide" id="navbarsExampleDefault">
             <ul class="navbar-nav lists" id="lists">
-                <li class="nav-item active" data-target="home">
+                <li class="nav-item " data-target="home">
                     
                     <a class="nav-link active" href="index.php" >
                         <i class="fas fa-home"></i>  Home</a>
@@ -46,6 +46,7 @@
                    
                     <a class="nav-link" href="resume.php">  <i class="fas fa-id-badge"></i>  Resume</a>
                 </li>
+
                 <li class="nav-item" data-target="Portfolio">
                    
                     <a class="nav-link" href="portfolio.php">  <i class="fas fa-briefcase"></i>  Portfolio</a>
@@ -58,20 +59,20 @@
             </ul>
             <ul class="navbar-nav list-inline">
                 <li class="list-inline-item">
-                    <a class="nav-link d-inline" data-class="fixed-left" href="https://www.facebook.com/Amal.elsa3ed"
+                    <a class="nav-link d-inline" data-class="fixed-left" href="https://www.facebook.com/profile.php?id=100004327276319"
                        style="color: #4267B2;">
                         <i class="fab fa-facebook d-inline " style="color: var(--pinkC);font-size: 20px"></i>
                     </a>
                 </li>
                 <li class="list-inline-item">
-                    <a class="nav-link d-inline" data-class="fixed-top" href="https://twitter.com/Amal_Elsa3ed_"
+                    <a class="nav-link d-inline" data-class="fixed-top" href="https://twitter.com/AhmedA1o1"
                        style="color: #1DA1F2;">
                         <i class="fab fa-twitter d-inline fa-1x" style="color: var(--pinkC);font-size: 20px"></i>
 
                     </a>
                 </li>
                 <li class="list-inline-item">
-                    <a class="nav-link d-inline" data-class="fixed-top" href="https://twitter.com/Amal_Elsa3ed_"
+                    <a class="nav-link d-inline" data-class="fixed-top" href="https://www.linkedin.com/in/ahmed-ali-a267b2172/"
                        style="color: #1DA1F2;">
                         <i class="fab fa-linkedin d-inline fa-1x" style="color: var(--pinkC);font-size: 20px"></i>
 
@@ -79,6 +80,9 @@
                 </li>
 
             </ul>
+            <div class="cv-div d-none d-sm-none d-md-block">
+                <span><a href="Ahmed-Ali-CV.pdf"><i class="fas fa-download"></i> CV</a></span>
+            </div>
             <div class="copy-right d-none d-sm-none d-md-block">
                 <span>2020 © <a href="#"><span class="name"> Ahmed Ali</span></a>
                     All Right Reserved.</span>
@@ -108,7 +112,7 @@
                     <img class="d-block " src="imgs/b2.jpg" alt="Second slide" >
                     <div class="carousel-caption" style="margin: 200px auto;">
                         <h1>Ahmed Ali</h1>
-                        <h4 id="typer2" data-text="I'm Front End Developer"></h4>
+                        <h4 id="typer2" data-text="I'm a Web Developer"></h4>
                     </div>
                 </div>
 

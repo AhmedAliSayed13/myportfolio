@@ -7,9 +7,9 @@
         <meta charset='UTF-8'>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content=" portfolio web developer front end">
-        <meta name="keywords" content="portfolio web developer front end">
-        <meta name="author" content="Amal_Elsa3ed">
+        <meta name="description" content=" portfolio web developer">
+        <meta name="keywords" content="portfolio web developer">
+        <meta name="author" content="Ahmed_Ali">
         <title>My Portfolio</title>
         <link rel='stylesheet' href='css/bootstrap.css' />
         <link rel='stylesheet' href='css/animate.css'>
@@ -36,7 +36,7 @@
 
         <div class=" navbar-collapse collapse hide" id="navbarsExampleDefault">
             <ul class="navbar-nav lists" id="lists">
-                <li class="nav-item active" data-target="home">
+                <li class="nav-item " data-target="home">
                     
                     <a class="nav-link" href="index.php" >
                         <i class="fas fa-home"></i>  Home</a>
@@ -49,7 +49,8 @@
                    
                     <a class="nav-link" href="resume.php">  <i class="fas fa-id-badge"></i>  Resume</a>
                 </li>
-                <li class="nav-item active" data-target="Portfolio">
+
+                <li class="nav-item " data-target="Portfolio">
                    
                     <a class="nav-link active" href="portfolio.php">  <i class="fas fa-briefcase"></i>  Portfolio</a>
                 </li>
@@ -61,20 +62,20 @@
             </ul>
             <ul class="navbar-nav list-inline">
                 <li class="list-inline-item">
-                    <a class="nav-link d-inline" data-class="fixed-left" href="https://www.facebook.com/Amal.elsa3ed"
+                    <a class="nav-link d-inline" data-class="fixed-left" href="https://www.facebook.com/profile.php?id=100004327276319"
                        style="color: #4267B2;">
                         <i class="fab fa-facebook d-inline " style="color: var(--pinkC);font-size: 20px"></i>
                     </a>
                 </li>
                 <li class="list-inline-item">
-                    <a class="nav-link d-inline" data-class="fixed-top" href="https://twitter.com/Amal_Elsa3ed_"
+                    <a class="nav-link d-inline" data-class="fixed-top" href="https://twitter.com/AhmedA1o1"
                        style="color: #1DA1F2;">
                         <i class="fab fa-twitter d-inline fa-1x" style="color: var(--pinkC);font-size: 20px"></i>
 
                     </a>
                 </li>
                 <li class="list-inline-item">
-                    <a class="nav-link d-inline" data-class="fixed-top" href="https://twitter.com/Amal_Elsa3ed_"
+                    <a class="nav-link d-inline" data-class="fixed-top" href="https://www.linkedin.com/in/ahmed-ali-a267b2172/"
                        style="color: #1DA1F2;">
                         <i class="fab fa-linkedin d-inline fa-1x" style="color: var(--pinkC);font-size: 20px"></i>
 
@@ -82,6 +83,9 @@
                 </li>
 
             </ul>
+            <div class="cv-div d-none d-sm-none d-md-block">
+                <span><a href="Ahmed-Ali-CV.pdf"><i class="fas fa-download"></i> CV</a></span>
+            </div>
             <div class="copy-right d-none d-sm-none d-md-block">
                 <span>2020 © <a href="#"><span class="name"> Ahmed Ali</span></a>
                     All Right Reserved.</span>
@@ -103,8 +107,30 @@
           <div class="row">
               <div class="col-lg-4 col-md-6 col-xs-12">
 
-                      <a href="http://classicone.epizy.com/Design" class="project d-block wow fadeInDown" data-wow-delay="0.2s">
-                          <h3 class="text-center">New Design</h3>
+                      <a href="http://35.156.184.175/wakala/" class="project d-block wow fadeInDown" data-wow-delay="0.2s">
+                          <h5 class="text-center">Website For Ministry of Education in Saudi Arabia</h5>
+                      </a>
+              </div>
+              <div class="col-lg-4 col-md-6 col-xs-12">
+                      <a href="#" class="project d-block wow fadeInUp" data-wow-delay="0.4s">
+                          <h5 class="text-center">Website for Ministry of Education in Saudi Arabia to show Statistics</h5>
+                      </a>
+              </div>
+              <div class="col-lg-4 col-md-6 col-xs-12">
+                      <a href="http://moebuilding-kpi.com/public/login" class="project d-block wow fadeInDown" data-wow-delay="0.6s">
+                          <h5 class="text-center">Website For agency building of Ministry of Education in Saudi Arabia</h5>
+                      </a>
+              </div>
+              <div class="col-lg-4 col-md-6 col-xs-12">
+                      <a href="http://www.pksaudi.com/" class="project d-block wow fadeInUp" data-wow-delay="0.2s">
+                          <h5 class="text-center">Website For PK Company</h5>
+                      </a>
+              </div>
+              <div class="col-lg-4 col-md-6 col-xs-12">
+
+
+                      <a href="http://jumeirah-rs.com/website" class="project d-block wow fadeInDown" data-wow-delay="0.4s">
+                          <h5 class="text-center"> Website For Jumeirah Company </h5>
                       </a>
 
 
@@ -112,103 +138,15 @@
               <div class="col-lg-4 col-md-6 col-xs-12">
 
 
-                      <a href="http://classicone.epizy.com/aeportfolio" class="project d-block wow fadeInUp" data-wow-delay="0.4s">
-                          <h3 class="text-center">Portfolio</h3>
+                      <a href="http://167.172.191.180/" class="project d-block wow fadeInUp" data-wow-delay="0.6s">
+                          <h5 class="text-center">Website For Almaali Medical Clinic</h5>
                       </a>
 
               </div>
               <div class="col-lg-4 col-md-6 col-xs-12">
-
-                      <a href="http://classicone.epizy.com/arch/" class="project d-block wow fadeInDown" data-wow-delay="0.6s">
-                          <h3 class="text-center">Arch</h3>
+                      <a href="https://www.apptrainers.com/" class="project d-block wow fadeInDown" data-wow-delay="0.2s">
+                          <h5 class="text-center">Website For apptrainers Company</h5>
                       </a>
-
-
-              </div>
-              <div class="col-lg-4 col-md-6 col-xs-12">
-
-                      <a href="http://classicone.epizy.com/otlop2" class="project d-block wow fadeInUp" data-wow-delay="0.2s">
-                          <h3 class="text-center">Otlop</h3>
-                      </a>
-
-
-              </div>
-              <div class="col-lg-4 col-md-6 col-xs-12">
-
-
-                      <a href="http://classicone.epizy.com/wedding/" class="project d-block wow fadeInDown" data-wow-delay="0.4s">
-                          <h3 class="text-center">Wedding</h3>
-                      </a>
-
-
-              </div>
-              <div class="col-lg-4 col-md-6 col-xs-12">
-
-
-                      <a href="http://classicone.epizy.com/sass/?i=1" class="project d-block wow fadeInUp" data-wow-delay="0.6s">
-                          <h3 class="text-center">Sass Project</h3>
-                      </a>
-
-              </div>
-              <div class="col-lg-4 col-md-6 col-xs-12">
-
-                      <a href="http://classicone.epizy.com/arsass/" class="project d-block wow fadeInDown" data-wow-delay="0.2s">
-                          <h3 class="text-center">Arabic Project</h3>
-                      </a>
-
-
-              </div>
-              <div class="col-lg-4 col-md-6 col-xs-12">
-
-                      <a href="http://classicone.epizy.com/foodco/" class="project d-block wow fadeInUp" data-wow-delay="0.4s">
-                          <h3 class="text-center">FoodCo</h3>
-                      </a>
-
-
-              </div>
-              <div class="col-lg-4 col-md-6 col-xs-12">
-
-
-                      <a href="http://classicone.epizy.com/business/" class="project d-block wow fadeInDown" data-wow-delay="0.6s">
-                          <h3 class="text-center">Business</h3>
-                      </a>
-
-
-              </div>
-              <div class="col-lg-4 col-md-6 col-xs-12">
-
-
-                      <a href="http://classicone.epizy.com/Axit/" class="project d-block wow fadeInUp" data-wow-delay="0.2s">
-                          <h3 class="text-center">Axit</h3>
-                      </a>
-
-
-              </div>
-              <div class="col-lg-4 col-md-6 col-xs-12">
-
-                      <a href="http://classicone.epizy.com/design/" class="project d-block wow fadeInDown" data-wow-delay="0.4s">
-                          <h3 class="text-center">Design</h3>
-                      </a>
-
-
-              </div>
-              <div class="col-lg-4 col-md-6 col-xs-12">
-
-
-                      <a href="http://classicone.epizy.com/Beth/" class="project d-block wow fadeInUp" data-wow-delay="0.6s">
-                          <h3 class="text-center">Bethany</h3>
-                      </a>
-
-
-              </div>
-              <div class="col-lg-4 col-md-6 col-xs-12">
-            =
-
-                      <a href="http://classicone.epizy.com/" class="project d-block wow fadeInDown" data-wow-delay="0.2s">
-                          <h3 class="text-center">Old Project</h3>
-                      </a>
-
-
               </div>
           </div>
       </div>

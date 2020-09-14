@@ -23,11 +23,11 @@ html {
 body {
   margin: 0;
 }
-.navbar .lists li a:active{
-  color: var(--pinkC);
+#about h5, #resume h5, #portfolio h5, #contact h5{
+  color: white;
 }
-li.nav-item.active  a.nav-link.active,li.nav-item.active  a.nav-link.active i{
-  color: white!important;
+li.nav-item  a.nav-link.active,li.nav-item  a.nav-link.active i,div.cv-div span a{
+  color: var(--pinkC)!important;
 }
 /**
  * Render the `main` element consistently in IE.

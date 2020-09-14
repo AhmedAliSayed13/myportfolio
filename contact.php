@@ -7,9 +7,9 @@
         <meta charset='UTF-8'>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content=" portfolio web developer front end">
-        <meta name="keywords" content="portfolio web developer front end">
-        <meta name="author" content="Amal_Elsa3ed">
+        <meta name="description" content=" portfolio web developer">
+        <meta name="keywords" content="portfolio web developer">
+        <meta name="author" content="Ahmed_Ali">
         <title>My Portfolio</title>
         <link rel='stylesheet' href='css/bootstrap.css' />
         <link rel='stylesheet' href='css/animate.css'>
@@ -53,7 +53,7 @@
                    
                     <a class="nav-link" href="portfolio.php">  <i class="fas fa-briefcase"></i>  Portfolio</a>
                 </li>
-                <li class="nav-item active" data-target="Contact">
+                <li class="nav-item " data-target="Contact">
                    
                     <a class="nav-link active" href="contact.php">  <i class="far fa-envelope"></i>  Contact Me</a>
                 </li>
@@ -61,20 +61,20 @@
             </ul>
             <ul class="navbar-nav list-inline">
                 <li class="list-inline-item">
-                    <a class="nav-link d-inline" data-class="fixed-left" href="https://www.facebook.com/Amal.elsa3ed"
+                    <a class="nav-link d-inline" data-class="fixed-left" href="https://www.facebook.com/profile.php?id=100004327276319"
                        style="color: #4267B2;">
                         <i class="fab fa-facebook d-inline " style="color: var(--pinkC);font-size: 20px"></i>
                     </a>
                 </li>
                 <li class="list-inline-item">
-                    <a class="nav-link d-inline" data-class="fixed-top" href="https://twitter.com/Amal_Elsa3ed_"
+                    <a class="nav-link d-inline" data-class="fixed-top" href="https://twitter.com/AhmedA1o1"
                        style="color: #1DA1F2;">
                         <i class="fab fa-twitter d-inline fa-1x" style="color: var(--pinkC);font-size: 20px"></i>
 
                     </a>
                 </li>
                 <li class="list-inline-item">
-                    <a class="nav-link d-inline" data-class="fixed-top" href="https://twitter.com/Amal_Elsa3ed_"
+                    <a class="nav-link d-inline" data-class="fixed-top" href="https://www.linkedin.com/in/ahmed-ali-a267b2172/"
                        style="color: #1DA1F2;">
                         <i class="fab fa-linkedin d-inline fa-1x" style="color: var(--pinkC);font-size: 20px"></i>
 
@@ -82,6 +82,9 @@
                 </li>
 
             </ul>
+            <div class="cv-div d-none d-sm-none d-md-block">
+                <span><a href="Ahmed-Ali-CV.pdf"><i class="fas fa-download"></i> CV</a></span>
+            </div>
             <div class="copy-right d-none d-sm-none d-md-block">
                 <span>2020 © <a href="#"><span class="name"> Ahmed Ali</span></a>
                     All Right Reserved.</span>
@@ -105,18 +108,14 @@
                     <form name="myform" action="/" method="GET" id="form">
                         <div id="errorname"></div>
                         <div class="form-group">
-
                             <input type="text" class="form-control" id="name" placeholder="Your Name">
                         </div>
                         <div id="errormail"></div>
                         <div class="form-group">
-
                             <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Your email">
-
                         </div>
                         <div id="errormessage"></div>
                         <div class="form-group">
-
                             <textarea class="form-control" id="message" rows="4" placeholder="your message" maxlength="200"></textarea>
                         </div>
                         <div class="form-group">
@@ -132,21 +131,21 @@
                 <div class="row">
                     <div class="col-md-4 col-xs-12 text-center">
                         <i class="fa fa-map-marker fa-2x"></i>
-                        <h5 class="py-1">Portsaid - Egypt</h5>
+                        <h5 class="py-1">Imbaba - Giza - Egypt</h5>
 
 
 
                     </div>
                     <div class="col-md-4 col-xs-12 text-center">
                         <i class="fa fa-phone fa-2x"></i>
-                        <h5 class="py-1">0039 333 12 68 347</h5>
+                        <h5 class="py-1">0111 291 2233</h5>
 
 
 
                     </div>
                     <div class="col-md-4 col-xs-12 text-center">
                         <i class="fa fa-envelope fa-2x"></i>
-                        <h5 class="py-1"> amalelsaeed@gmail.com</h5>
+                        <h5 class="py-1"> ahmedalisayed13@gmail.com</h5>
 
 
 
