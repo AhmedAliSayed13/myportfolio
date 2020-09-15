@@ -19,230 +19,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
         <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
         <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@500;600;700&display=swap" rel="stylesheet">
-        <style>
-            * {
-                box-sizing: border-box;
-            }
 
-            html,
-            body {
-                position: relative;
-                height: 100%;
-            }
-
-            .filter-links {
-                margin: 0;
-                padding: 0;
-                list-style: none;
-                display: block;
-                width: 100%;
-                height:auto;
-                overflow: hidden;
-                background: var(--pinkC);
-                border-bottom:1px solid var(--pinkC);
-            }
-
-            .filter-links li {
-                display: inline;
-                float: left;
-            }
-
-            .filter-links li a {
-                display: block;
-                color: white;
-                padding: 1em 2em;
-                text-decoration: none;
-            }
-
-            .filter-links li a:hover {
-                color: #202226;
-            }
-
-            .filter-sections {
-                width: 100%;
-                display: block;
-                overflow: hidden;
-            }
-
-            .filter-sections div {
-                opacity: 0;
-                display: none;
-                float: left;
-                transition: all 500s ease;
-            }
-
-            .view {
-                display: block !important;
-                opacity: 1 !important;
-                transform: scale(1) rotate(0deg);
-                border-radius:4px;
-                animation: selected 300ms 1 ease-in-out;
-            }
-
-            @keyframes selected {
-                0% {
-                    border-radius:100%;
-                    transform: scale(0) rotate(-180deg);
-                }
-            }
-
-
-            /*scroll style*/
-            .style-2::-webkit-scrollbar-track
-            {
-                -webkit-box-shadow: inset 0 0 2px rgba(0,0,0,0.3);
-                border-radius: 10px;
-                background-color: #F5F5F5;
-            }
-
-            .style-2::-webkit-scrollbar
-            {
-                width: 8px;
-                background-color: #F5F5F5;
-            }
-
-            .style-2::-webkit-scrollbar-thumb
-            {
-                border-radius: 5px;
-                -webkit-box-shadow: inset 0 0 2px rgba(0,0,0,.3);
-                background-color: var(--pinkC);
-            }
-
-            /*hover style*/
-            .playful figure {
-                cursor: pointer;
-                float: left;
-                margin: 10px 1%;
-                max-height: 225px;
-                max-width: 480px;
-                overflow: hidden;
-                position: relative;
-                text-align: center;
-                width: 100%;
-            }
-
-            .playful figure figcaption,
-            .playful figure figcaption > a {
-                height: 100%;
-                left: 0;
-                position: absolute;
-                top: 0;
-                width: 100%;
-            }
-
-            .playful figure figcaption {
-                backface-visibility: hidden;
-                color: #fff;
-                font-size: 1.25em;
-                text-transform: uppercase;
-            }
-
-            .playful figure h4,
-            .playful figure p {
-                margin: 0;
-            }
-
-            .playful figure h4 {
-                color: #fff;
-                font-size: 20px;
-                font-weight: 800;
-                word-spacing: -0.15em;
-            }
-
-            .playful figure p {
-                font-size: 18px;
-                font-weight: 100;
-                color: #fff;
-                letter-spacing: 1px;
-            }
-
-            .playful figure h2,
-            .playful figure p {
-                margin: 0;
-            }
-
-            .playful figure.softeffect {
-                background: none repeat scroll 0 0 #000000;
-            }
-
-            .playful figure.softeffect img {
-                transition: opacity .35s ease 0s, transform .35s ease 0s;
-            }
-
-            figure.softeffect:hover img {
-                opacity: 0.35;
-                transform: scale(1);
-            }
-
-            .playful figure.softeffect figcaption:before,
-            .playful figure.softeffect p {
-                opacity: 0;
-                transition: opacity 0.35s ease 0s, transform 0.35s ease 0s;
-            }
-
-            .playful figure.softeffect h4 {
-                opacity: 0;
-                padding: 20% 0 20px;
-                transition: opacity 0.35s ease 0s, transform 0.35s ease 0s;
-            }
-
-            .playful figure.softeffect p {
-                margin: 0 auto;
-                max-width: 200px;
-                transform: scale(1.5);
-            }
-
-            .playful figure.softeffect:hover figcaption:before,
-            .playful figure.softeffect:hover p {
-                opacity: 1;
-                transform: scale(1);
-            }
-
-            .playful figure.softeffect:hover h4 {
-                opacity: 1;
-                transform: scale(1);
-            }
-
-            .playful figure img {
-                display: block;
-                max-width: 100%;
-                min-height: 100%;
-                opacity: 1;
-                position: relative;
-            }
-
-            figure.softeffect {
-                background: none repeat scroll 0 0 transparent;
-            }
-
-            figure.softeffect:hover {
-                background: none repeat scroll 0 0 #000000;
-                /* Cyan: #00aeef */
-            }
-
-            figure.softeffect img {
-                transform: scale(1);
-                transition: opacity .35s ease 0s, transform .35s ease 0s;
-            }
-
-            figure.softeffect:hover img {
-                opacity: 0.40;
-                transform: scale(1.15);
-                filter: blur(2px);
-            }
-            /*model style*/
-            .modal-dialog{
-                max-width: 100%!important;
-                margin: 0px!important;
-            }
-            .modal-header .close{
-                margin: 0px!important;
-            }
-            .modal-title{
-                margin: auto!important;
-            }
-
-        </style>
     </head>
 <body>
 
@@ -262,25 +39,25 @@
         <div class=" navbar-collapse collapse hide" id="navbarsExampleDefault">
             <ul class="navbar-nav lists" id="lists">
                 <li class="nav-item " data-target="home">
-                    
+
                     <a class="nav-link" href="index.php" >
                         <i class="fas fa-home"></i>  Home</a>
                 </li>
                 <li class="nav-item" data-target="about">
-                    
+
                     <a class="nav-link" href="about.php"> <i class="fas fa-user"></i>  About Me</a>
                 </li>
                 <li class="nav-item" data-target="resume">
-                   
+
                     <a class="nav-link" href="resume.php">  <i class="fas fa-id-badge"></i>  Resume</a>
                 </li>
 
                 <li class="nav-item " data-target="Portfolio">
-                   
+
                     <a class="nav-link active" href="portfolio.php">  <i class="fas fa-briefcase"></i>  Portfolio</a>
                 </li>
                 <li class="nav-item" data-target="Contact">
-                   
+
                     <a class="nav-link" href="contact.php">  <i class="far fa-envelope"></i>  Contact Me</a>
                 </li>
 
@@ -314,12 +91,7 @@
             <div class="copy-right d-none d-sm-none d-md-block">
                 <span>2020 © <a href="#"><span class="name"> Ahmed Ali</span></a>
                     All Right Reserved.</span>
-
             </div>
-
-
-
-
         </div>
     </nav>
     <section class="portfolio wow swing" id="portfolio">
@@ -339,6 +111,7 @@
                 </div>
             </div>
             <div class="row mt-2 filter-sections">
+
                 <div class="col-lg-4 mt-4 float-left col-md-12 col-xs-12 item-filter playful scrollbar style-2 css">
                     <figure class="softeffect">
                         <img src="imgs/1.png" class="img-responsive img-item-filter" alt="Canal Park - Duluth"  />
@@ -351,21 +124,6 @@
                 </div>
 
 
-                <div class="col-lg-4 mt-4 float-left col-md-12 col-xs-12 item-filter scrollbar style-2 css">
-                    <img src="imgs/1.png" class="img-item-filter" >
-                </div>
-                <div class="col-lg-4 mt-4 float-left col-md-12 col-xs-12 item-filter scrollbar style-2 html">
-                    <img src="imgs/1.png" class="img-item-filter" >
-                </div>
-                <div class="col-lg-4 mt-4 float-left col-md-12 col-xs-12 item-filter scrollbar style-2  css">
-                    <img src="imgs/1.png" class="img-item-filter" >
-                </div>
-                <div class="col-lg-4 mt-4 float-left col-md-12 col-xs-12 item-filter scrollbar style-2 html">
-                    <img src="imgs/1.png" class="img-item-filter" >
-                </div>
-                <div class="col-lg-4 mt-4 float-left col-md-12 col-xs-12 item-filter scrollbar style-2 css">
-                    <img src="imgs/1.png" class="img-item-filter" >
-                </div>
             </div>
 
         </div>
@@ -383,16 +141,47 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
                 </div>
                 <div class="modal-body">
-                    ...
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-lg-6">
+                      <div class="item-filter-pop-up playful scrollbar style-2">
+                            <img src="imgs/1.png" class="img-responsive img-item-filter" alt="Canal Park - Duluth"  />
+                      </div>
+                      </div>
+                      <div class="col-lg-6 project-details">
+                        <header> Technical Skills</header>
+                        <ul class="ul-project-describe">
+                          <li>Responsive WebSite with flex box and media Query.</li>
+                          <li>Responsive WebSite with flex box and media Query.</li>
+                          <li>Responsive WebSite with flex box and media Query.</li>
+                          <li>Responsive WebSite with flex box and media Query.</li>
+                        </ul>
+                        <header>Project Informations</header>
+                        <ul class="ul-project-describe">
+                          <li><span class="project-info-head">Client : </span>Jumeirah Company</li>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                        </ul>
+                          <a href="#" class="btn btn-info">
+                              <i class="fa fa-globe"></i>
+                              WebSite
+                          </a>
+                          <a class="btn btn-info" href="Ahmed-Ali-CV.pdf"><i class="fas fa-eye"></i> Ahmed Ali CV</a>
+
+                      </div>
+                    </div>
+                  </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                  <div>
+                      <button type="button" class="btn btn-danger" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span> Close
+                      </button>
+
+                  </div>
                 </div>
             </div>
         </div>
@@ -482,9 +271,6 @@
             },50);
         })(0);
     };
-
-
-
     $(document).ready(function() {
         $(".fancybox").fancybox({
             openEffect	: 'none',

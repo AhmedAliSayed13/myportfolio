@@ -363,3 +363,254 @@ template {
   width: 100%;
 
 }
+
+
+.item-filter-pop-up{
+  width: 100%;
+  height: 350px;
+  overflow-y: scroll;
+}
+
+.filter-links {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+    width: 100%;
+    height:auto;
+    overflow: hidden;
+    background: var(--pinkC);
+    border-bottom:1px solid var(--pinkC);
+}
+
+.filter-links li {
+    display: inline;
+    float: left;
+}
+
+.filter-links li a {
+    display: block;
+    color: white;
+    padding: 1em 2em;
+    text-decoration: none;
+}
+
+.filter-links li a:hover {
+    color: #202226;
+}
+
+.filter-sections {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+.filter-sections div {
+    opacity: 0;
+    display: none;
+    float: left;
+    transition: all 500s ease;
+}
+
+.view {
+    display: block !important;
+    opacity: 1 !important;
+    transform: scale(1) rotate(0deg);
+    border-radius:4px;
+    animation: selected 300ms 1 ease-in-out;
+}
+
+@keyframes selected {
+    0% {
+        border-radius:100%;
+        transform: scale(0) rotate(-180deg);
+    }
+}
+
+
+/*scroll style*/
+.style-2::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 2px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+.style-2::-webkit-scrollbar
+{
+    width: 8px;
+    background-color: #F5F5F5;
+}
+
+.style-2::-webkit-scrollbar-thumb
+{
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 2px rgba(0,0,0,.3);
+    background-color: var(--pinkC);
+}
+
+/*hover style*/
+.playful figure {
+    cursor: pointer;
+    float: left;
+    margin: 10px 1%;
+    max-height: 225px;
+    max-width: 480px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.playful figure figcaption,
+.playful figure figcaption > a {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.playful figure figcaption {
+    backface-visibility: hidden;
+    color: #fff;
+    font-size: 1.25em;
+    text-transform: uppercase;
+}
+
+.playful figure h4,
+.playful figure p {
+    margin: 0;
+}
+
+.playful figure h4 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
+    word-spacing: -0.15em;
+}
+
+.playful figure p {
+    font-size: 18px;
+    font-weight: 100;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.playful figure h2,
+.playful figure p {
+    margin: 0;
+}
+
+.playful figure.softeffect {
+    background: none repeat scroll 0 0 #000000;
+}
+
+.playful figure.softeffect img {
+    transition: opacity .35s ease 0s, transform .35s ease 0s;
+}
+
+figure.softeffect:hover img {
+    opacity: 0.35;
+    transform: scale(1);
+}
+
+.playful figure.softeffect figcaption:before,
+.playful figure.softeffect p {
+    opacity: 0;
+    transition: opacity 0.35s ease 0s, transform 0.35s ease 0s;
+}
+
+.playful figure.softeffect h4 {
+    opacity: 0;
+    padding: 20% 0 20px;
+    transition: opacity 0.35s ease 0s, transform 0.35s ease 0s;
+}
+
+.playful figure.softeffect p {
+    margin: 0 auto;
+    max-width: 200px;
+    transform: scale(1.5);
+}
+
+.playful figure.softeffect:hover figcaption:before,
+.playful figure.softeffect:hover p {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.playful figure.softeffect:hover h4 {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.playful figure img {
+    display: block;
+    max-width: 100%;
+    min-height: 100%;
+    opacity: 1;
+    position: relative;
+}
+
+figure.softeffect {
+    background: none repeat scroll 0 0 transparent;
+}
+
+figure.softeffect:hover {
+    background: none repeat scroll 0 0 #000000;
+    /* Cyan: #00aeef */
+}
+
+figure.softeffect img {
+    transform: scale(1);
+    transition: opacity .35s ease 0s, transform .35s ease 0s;
+}
+
+figure.softeffect:hover img {
+    opacity: 0.40;
+    transform: scale(1.15);
+    filter: blur(2px);
+}
+/*model style*/
+.modal-dialog{
+    max-width: 100%!important;
+    margin: 0px!important;
+}
+.modal-header .close{
+    margin: 0px!important;
+}
+.modal-title{
+    margin: auto!important;
+}
+.modal-footer div{
+  margin: auto!important;
+  width: auto;
+}
+.modal-content{
+  background-color: var(--darkC);
+}.modal-header
+.modal-title{
+  color: white!important
+}
+.modal-footer{
+  border-top:1px solid var(--pinkC) !important;
+}
+.modal-header{
+  border-bottom:1px solid var(--pinkC) !important;
+
+}
+.modal-header .close{
+  padding: 1px 1px!important;
+}
+.project-details header{
+  color: var(--pinkC)!important
+}
+.project-details ul li{
+  color: #777 !important
+}
+span.project-info-head{
+  color: white !important
+}
+figcaption i {
+    color: var(--pinkC)!important
+}
