@@ -42,9 +42,13 @@
                     
                     <a class="nav-link" href="about.php"> <i class="fas fa-user"></i>  About Me</a>
                 </li>
+                <li class="nav-item" data-target="skills">
+
+                    <a class="nav-link" href="skills.php">  <i class="fas fa-list"></i>  Skills</a>
+                </li>
                 <li class="nav-item " data-target="resume">
                    
-                    <a class="nav-link active" href="resume.php">  <i class="fas fa-id-badge"></i>  Resume</a>
+                    <a class="nav-link active" href="experienc.php">  <i class="fas fa-id-badge"></i>  Experience</a>
                 </li>
                 <li class="nav-item" data-target="Portfolio">
                    
@@ -95,16 +99,35 @@
     </nav>
     <section class="resume wow slideInDown" id="resume">
         <div class="container">
-            <h2>My Resume</h2>
+            <h2>My Experience</h2>
             <hr class="break">
             <div class="row">
                 <div class="col-md-6 col-sm-12 py-4">
                     <h3>Experience</h3>
-                    <ul class="experience">
+                    <ul class="resume">
                         <li class="py-2">
                             <span><i class="fa fa-check"></i>  From November 2018 - Now </span>
                             <p>Worked  as  a web developer (Full Stack) at  PK company for Programming
                                 (6 October- Giza).</p>
+                            <span class="d-block">Technologies :</span>
+                            <ul class="py-1 Technologies">
+                                <li>Laravel</li> |
+                                <li>WordPress</li> |
+                                <li>PHP</li> |
+                                <li>Html</li> |
+                                <li>Css</li> |
+                                <li>Sasa</li> |
+                                <li>Vue js</li> |
+                                <li>Javascript/Jquery</li> |
+                                <li>Bootstrap</li>|
+                                <li>GIT</li> |
+                                <li>Database(Mysql/sql)</li> |
+                            </ul>
+                        </li>
+                        <li class="py-3">
+                            <span><i class="fa fa-check"></i>  March 2020 From   - Now ( Part Time- Remotely )</span>
+                            <p>Worked  as  a Full Stack developer  at  Kabtech Corp Company
+                               .</p>
                             <span class="d-block">Technologies :</span>
                             <ul class="py-1 Technologies">
                                 <li>Laravel</li> |
@@ -133,6 +156,7 @@
                                 <li>Java Script</li>
                             </ul>
                         </li>
+
                     </ul>
                 </div>
                 <div class="col-md-6 col-sm-12 py-4">

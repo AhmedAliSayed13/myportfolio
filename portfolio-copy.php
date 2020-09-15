@@ -1,5 +1,6 @@
-<!DOCTYPE html>
-<html>
+    <!DOCTYPE html>
+    <html>
+
 
     
     <head>
@@ -9,7 +10,7 @@
         <meta name="description" content=" portfolio web developer">
         <meta name="keywords" content="portfolio web developer">
         <meta name="author" content="Ahmed_Ali">
-        <title>Ahmed Ali Portfolio</title>
+        <title>My Portfolio</title>
         <link rel='stylesheet' href='css/bootstrap.css' />
         <link rel='stylesheet' href='css/animate.css'>
         <link rel='stylesheet' href='css/all.css' />
@@ -35,25 +36,23 @@
 
         <div class=" navbar-collapse collapse hide" id="navbarsExampleDefault">
             <ul class="navbar-nav lists" id="lists">
-                <li class="nav-item" data-target="home">
+                <li class="nav-item " data-target="home">
                     
                     <a class="nav-link" href="index.php" >
                         <i class="fas fa-home"></i>  Home</a>
                 </li>
-                <li class="nav-item "  data-target="about">
-                    <a class="nav-link active"  href="about.php"> <i class="fas fa-user"></i>  About Me</a>
-                </li>
-                <li class="nav-item" data-target="skills">
-
-                    <a class="nav-link" href="skills.php">  <i class="fas fa-list"></i>  Skills</a>
+                <li class="nav-item" data-target="about">
+                    
+                    <a class="nav-link" href="about.php"> <i class="fas fa-user"></i>  About Me</a>
                 </li>
                 <li class="nav-item" data-target="resume">
                    
                     <a class="nav-link" href="experienc.php">  <i class="fas fa-id-badge"></i>  Experience</a>
                 </li>
-                <li class="nav-item" data-target="Portfolio">
+
+                <li class="nav-item " data-target="Portfolio">
                    
-                    <a class="nav-link" href="portfolio.php">  <i class="fas fa-briefcase"></i>  Portfolio</a>
+                    <a class="nav-link active" href="portfolio.php">  <i class="fas fa-briefcase"></i>  Portfolio</a>
                 </li>
                 <li class="nav-item" data-target="Contact">
                    
@@ -64,13 +63,13 @@
             <ul class="navbar-nav list-inline">
                 <li class="list-inline-item">
                     <a class="nav-link d-inline" data-class="fixed-left" href="https://www.facebook.com/profile.php?id=100004327276319"
-                        style="color: #4267B2;">
+                       style="color: #4267B2;">
                         <i class="fab fa-facebook d-inline " style="color: var(--pinkC);font-size: 20px"></i>
                     </a>
                 </li>
                 <li class="list-inline-item">
                     <a class="nav-link d-inline" data-class="fixed-top" href="https://twitter.com/AhmedA1o1"
-                        style="color: #1DA1F2;">
+                       style="color: #1DA1F2;">
                         <i class="fab fa-twitter d-inline fa-1x" style="color: var(--pinkC);font-size: 20px"></i>
 
                     </a>
@@ -99,55 +98,80 @@
         </div>
     </nav>
     
-   
- 
-    <section id="about" class="about wow swing" >
-        <div class="container">
-            <h2>About Me</h2>
-            <hr class="break">
-            <div class="row">
-
-                <div class="col-md-6 col-sm-12 py-4">
-                    <h3>Full Stack Developer</h3>
-
-                    <p>Dynamic and creative Wed developer with 1 year of resume in developing Laravel and Wordpress Website,
-                        designing, developing, integrating, testing, and supporting Responsive Websites for PC and mobile and tablet devices.</p>
 
 
-                </div>
-                <div class="col-md-6 col-sm-12 py-4">
-                    <h3>Personal Information</h3>
-                    <ul>
-                        <li><span class="title">Name:</span><span class="value"> Ahmed Ali</span></li>
-                        <li><span class="title">Age:</span><span class="value"> 25 Years</span></li>
-                        <li><span class="title">Address:</span><span class="value"> Imbaba - Giza - Egypt</span></li>
-                        <li><span class="title">Military Status:</span><span class="value"> Exempted</span></li>
-                    </ul>
-                </div>
-            </div>
-            <h2>Services</h2>
-            <hr class="break">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12 py-2">
-                    <i class="fas fa-laptop-code fa-2x"></i>
-                    <h4 class="py-2">Web Development</h4>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 py-2">
-                    <i class="fas fa-mobile-alt fa-2x"></i>
-                    <h4 class="py-2">Responsive Design</h4>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 py-2">
-                    <i class="fas fa-cash-register fa-2x"></i>
-                    <h4 class="py-2">Backend Developer</h4>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 py-2">
+    <section class="portfolio wow swing" id="portfolio">
+      <div class="container">
+          <h2>My Projects</h2>
+          <hr class="break">
+          <div class="row">
+              <ul class="filter-links">
+                  <li><a href="#">All</a></li>
+                  <li><a href="#">Javascript</a></li>
+                  <li><a href="#">Html</a></li>
+                  <li><a href="#">Css</a></li>
+                  <li><a href="#">Php</a></li>
+              </ul>
+          </div>
+          <div class="row filter-sections">
+              <div class="col-lg-4 col-md-6 col-xs-12 javascript">
 
-                    <i class="fas fa-eye fa-2x"></i>
-                    <h4 class="py-2">Frontend Developer</h4>
-                </div>
-            </div>
-        </div>
+                      <a href="http://35.156.184.175/wakala/" class="project d-block wow fadeInDown" data-wow-delay="0.2s">
+                          <h5 class="text-center">Website For Ministry of Education in Saudi Arabia</h5>
+                      </a>
+              </div>
+
+              <div class="col-lg-4 col-md-6 col-xs-12 javascript">
+
+                      <a href="http://35.156.184.175/wakala/" class="project d-block wow fadeInDown" data-wow-delay="0.2s">
+                          <h5 class="text-center">Website For Ministry of Education in Saudi Arabia</h5>
+                      </a>
+              </div>
+              <div class="col-lg-4 col-md-6 col-xs-12 html">
+                      <a href="#" class="project d-block wow fadeInUp" data-wow-delay="0.4s">
+                          <h5 class="text-center">Website for Ministry of Education in Saudi Arabia to show Statistics</h5>
+                      </a>
+              </div>
+              <div class="col-lg-4 col-md-6 col-xs-12 html">
+                      <a href="http://moebuilding-kpi.com/public/login" class="project d-block wow fadeInDown" data-wow-delay="0.6s">
+                          <h5 class="text-center">Website For agency building of Ministry of Education in Saudi Arabia</h5>
+                      </a>
+              </div>
+              <div class="col-lg-4 col-md-6 col-xs-12 Css">
+                      <a href="http://www.pksaudi.com/" class="project d-block wow fadeInUp" data-wow-delay="0.2s">
+                          <h5 class="text-center">Website For PK Company</h5>
+                      </a>
+              </div>
+              <div class="col-lg-4 col-md-6 col-xs-12 Css">
+
+
+                      <a href="http://jumeirah-rs.com/website" class="project d-block wow fadeInDown" data-wow-delay="0.4s">
+                          <h5 class="text-center"> Website For Jumeirah Company </h5>
+                      </a>
+
+
+              </div>
+              <div class="col-lg-4 col-md-6 col-xs-12 Php">
+
+
+                      <a href="http://167.172.191.180/" class="project d-block wow fadeInUp" data-wow-delay="0.6s">
+                          <h5 class="text-center">Website For Almaali Medical Clinic</h5>
+                      </a>
+
+              </div>
+              <div class="col-lg-4 col-md-6 col-xs-12 Php">
+                      <a href="https://www.apptrainers.com/" class="project d-block wow fadeInDown" data-wow-delay="0.2s">
+                          <h5 class="text-center">Website For apptrainers Company</h5>
+                      </a>
+              </div>
+          </div>
+      </div>
+
     </section>
+
+
+
+
 
     
 <script src="js/jquery-3.4.1.min.js"></script>
@@ -167,12 +191,9 @@
 
 
 </script>
-
-
     <script>
-
         VANTA.NET({
-            el: "#about",
+            el: "#portfolio",
             mouseControls: true,
             touchControls: true,
             minHeight: 200.00,
@@ -188,10 +209,9 @@
 
 
 
-
     </script>
 
 
-</body>
+    </body>
 
-</html>
+    </html>

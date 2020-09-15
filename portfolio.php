@@ -1,8 +1,5 @@
     <!DOCTYPE html>
     <html>
-
-
-    
     <head>
         <meta charset='UTF-8'>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,11 +15,17 @@
         <link rel='stylesheet' href='css/fixed.css' />
         <link rel='stylesheet' href="fontawesome/css/all.css">
         <link rel="stylesheet" href="css/main.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+        <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
         <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@500;600;700&display=swap" rel="stylesheet">
 
     </head>
 <body>
-<nav class="navbar navbar-expand-md  fixed-left">
+
+
+
+    <nav class="navbar navbar-expand-md  fixed-left">
         <a class="navbar-brand" href="index.html">
             <img src="imgs/myphoto.jpg" width="100%" height="auto" class="image1">
             <img src="imgs/myphoto2.jpg" width="100%" height="auto" class="image2">
@@ -33,29 +36,32 @@
             <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
 
         </button>
-
         <div class=" navbar-collapse collapse hide" id="navbarsExampleDefault">
             <ul class="navbar-nav lists" id="lists">
                 <li class="nav-item " data-target="home">
-                    
+
                     <a class="nav-link" href="index.php" >
                         <i class="fas fa-home"></i>  Home</a>
                 </li>
                 <li class="nav-item" data-target="about">
-                    
+
                     <a class="nav-link" href="about.php"> <i class="fas fa-user"></i>  About Me</a>
                 </li>
+                <li class="nav-item" data-target="skills">
+
+                    <a class="nav-link" href="skills.php">  <i class="fas fa-list"></i>  Skills</a>
+                </li>
                 <li class="nav-item" data-target="resume">
-                   
-                    <a class="nav-link" href="resume.php">  <i class="fas fa-id-badge"></i>  Resume</a>
+
+                    <a class="nav-link" href="experienc.php">  <i class="fas fa-id-badge"></i>  Experience</a>
                 </li>
 
                 <li class="nav-item " data-target="Portfolio">
-                   
+
                     <a class="nav-link active" href="portfolio.php">  <i class="fas fa-briefcase"></i>  Portfolio</a>
                 </li>
                 <li class="nav-item" data-target="Contact">
-                   
+
                     <a class="nav-link" href="contact.php">  <i class="far fa-envelope"></i>  Contact Me</a>
                 </li>
 
@@ -89,92 +95,103 @@
             <div class="copy-right d-none d-sm-none d-md-block">
                 <span>2020 © <a href="#"><span class="name"> Ahmed Ali</span></a>
                     All Right Reserved.</span>
+            </div>
+        </div>
+    </nav>
+    <section class="portfolio wow swing" id="portfolio">
+
+        <div class="container">
+            <h2>My Projects</h2>
+            <hr class="break">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="filter-links">
+                        <li><a href="#">All</a></li>
+                        <li><a href="#">Javascript</a></li>
+                        <li><a href="#">Html</a></li>
+                        <li><a href="#">Css</a></li>
+                        <li><a href="#">Php</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row mt-2 filter-sections">
+
+                <div class="col-lg-4 mt-4 float-left col-md-12 col-xs-12 item-filter playful scrollbar style-2 css">
+                    <figure class="softeffect">
+                        <img src="imgs/1.png" class="img-responsive img-item-filter" alt="Canal Park - Duluth"  />
+                        <figcaption>
+                            <h4><a class="fancybox"  href="imgs/1.png"><i class="fas fa-eye"></i></a></h4>
+                            <p  data-toggle="modal" data-target="#exampleModal">More Details</p>
+                        </figcaption>
+                    </figure>
+
+                </div>
+
 
             </div>
 
-
-
-
         </div>
-    </nav>
-    
 
 
-    <section class="portfolio wow swing" id="portfolio">
-      <div class="container">
-          <h2>My Projects</h2>
-          <hr class="break">
-          <div class="row">
-              <ul class="filter-links">
-                  <li><a href="#">All</a></li>
-                  <li><a href="#">Javascript</a></li>
-                  <li><a href="#">Html</a></li>
-                  <li><a href="#">Css</a></li>
-                  <li><a href="#">Php</a></li>
-              </ul>
-          </div>
-          <div class="row filter-sections">
-              <div class="col-lg-4 col-md-6 col-xs-12 javascript">
 
-                      <a href="http://35.156.184.175/wakala/" class="project d-block wow fadeInDown" data-wow-delay="0.2s">
-                          <h5 class="text-center">Website For Ministry of Education in Saudi Arabia</h5>
-                      </a>
-              </div>
-
-              <div class="col-lg-4 col-md-6 col-xs-12 javascript">
-
-                      <a href="http://35.156.184.175/wakala/" class="project d-block wow fadeInDown" data-wow-delay="0.2s">
-                          <h5 class="text-center">Website For Ministry of Education in Saudi Arabia</h5>
-                      </a>
-              </div>
-              <div class="col-lg-4 col-md-6 col-xs-12 html">
-                      <a href="#" class="project d-block wow fadeInUp" data-wow-delay="0.4s">
-                          <h5 class="text-center">Website for Ministry of Education in Saudi Arabia to show Statistics</h5>
-                      </a>
-              </div>
-              <div class="col-lg-4 col-md-6 col-xs-12 html">
-                      <a href="http://moebuilding-kpi.com/public/login" class="project d-block wow fadeInDown" data-wow-delay="0.6s">
-                          <h5 class="text-center">Website For agency building of Ministry of Education in Saudi Arabia</h5>
-                      </a>
-              </div>
-              <div class="col-lg-4 col-md-6 col-xs-12 Css">
-                      <a href="http://www.pksaudi.com/" class="project d-block wow fadeInUp" data-wow-delay="0.2s">
-                          <h5 class="text-center">Website For PK Company</h5>
-                      </a>
-              </div>
-              <div class="col-lg-4 col-md-6 col-xs-12 Css">
-
-
-                      <a href="http://jumeirah-rs.com/website" class="project d-block wow fadeInDown" data-wow-delay="0.4s">
-                          <h5 class="text-center"> Website For Jumeirah Company </h5>
-                      </a>
-
-
-              </div>
-              <div class="col-lg-4 col-md-6 col-xs-12 Php">
-
-
-                      <a href="http://167.172.191.180/" class="project d-block wow fadeInUp" data-wow-delay="0.6s">
-                          <h5 class="text-center">Website For Almaali Medical Clinic</h5>
-                      </a>
-
-              </div>
-              <div class="col-lg-4 col-md-6 col-xs-12 Php">
-                      <a href="https://www.apptrainers.com/" class="project d-block wow fadeInDown" data-wow-delay="0.2s">
-                          <h5 class="text-center">Website For apptrainers Company</h5>
-                      </a>
-              </div>
-          </div>
-      </div>
 
     </section>
 
+    <!-- Button trigger modal -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                </div>
+                <div class="modal-body">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-lg-6">
+                      <div class="item-filter-pop-up playful scrollbar style-2">
+                            <img src="imgs/1.png" class="img-responsive img-item-filter" alt="Canal Park - Duluth"  />
+                      </div>
+                      </div>
+                      <div class="col-lg-6 project-details">
+                        <header> Technical Skills</header>
+                        <ul class="ul-project-describe">
+                          <li>Responsive WebSite with flex box and media Query.</li>
+                          <li>Responsive WebSite with flex box and media Query.</li>
+                          <li>Responsive WebSite with flex box and media Query.</li>
+                          <li>Responsive WebSite with flex box and media Query.</li>
+                        </ul>
+                        <header>Project Informations</header>
+                        <ul class="ul-project-describe">
+                          <li><span class="project-info-head">Client : </span>Jumeirah Company</li>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                        </ul>
+                          <a href="#" class="btn btn-info">
+                              <i class="fa fa-globe"></i>
+                              WebSite
+                          </a>
+                          <a class="btn btn-info" href="Ahmed-Ali-CV.pdf"><i class="fas fa-eye"></i> Ahmed Ali CV</a>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <div>
+                      <button type="button" class="btn btn-danger" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span> Close
+                      </button>
+
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
-
-
-    
-<script src="js/jquery-3.4.1.min.js"></script>
 <script src='js/bootstrap.min.js'></script>
 <script src="js/html5shiv.min.js"></script>
 <script src="js/respond.min.js"></script>
@@ -185,31 +202,86 @@
 
 <script src="js/wow.js"></script>
 <script>new WOW().init();
-
-
-
-
-
 </script>
-    <script>
-        VANTA.NET({
-            el: "#portfolio",
-            mouseControls: true,
-            touchControls: true,
-            minHeight: 200.00,
-            minWidth: 200.00,
-            scale: 1.00,
-            scaleMobile: 1.00,
-            color: 0xf00052,
-            backgroundColor: 0xd0220,
-            points: 12.00,
-            maxDistance: 22.00,
-            spacing: 19.00
-        })
+<script>
+    VANTA.NET({
+        el: "#portfolio",
+        mouseControls: true,
+        touchControls: true,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        scaleMobile: 1.00,
+        color: 0xf00052,
+        backgroundColor: 0xd0220,
+        points: 12.00,
+        maxDistance: 22.00,
+        spacing: 19.00
+    })
 
 
+    /*  Javascript filter
+    ---------------------------------*/
+    // animate divs on start
+    var items = document.querySelectorAll('.filter-sections div');
+    animate(items);
 
-    </script>
+    // filter on click
+    each('.filter-links li a', function(el) {
+        el.addEventListener('click', function(e) {
+            e.preventDefault();
+            filterLinks(el);
+        });
+    });
+
+    // filter links functions
+    function filterLinks(element) {
+        // get text
+        var el = element.textContent,
+            // convert to lowercase
+            linksTolowerCase = el.toLowerCase();
+        // if all remove all elements
+        if (el === 'All') {
+            // first show all view class
+            each('.view', function(e) {
+                e.classList.remove('view');
+            });
+            // no show init animation
+            animate(items);
+        } else {
+            // if not click all remove all elements
+            each('.view', function(e) {
+                e.classList.remove('view');
+            });
+        }
+        // show animation for current elements
+        animate(document.querySelectorAll('.' + linksTolowerCase));
+    };
+    // forech arrays
+    function each(el, callback) {
+        var allDivs = document.querySelectorAll(el),
+            alltoArr = Array.prototype.slice.call(allDivs);
+        Array.prototype.forEach.call(alltoArr, function(selector, index) {
+            if (callback) return callback(selector);
+        });
+    };
+    // animate function
+    function animate(item) {
+        (function show(counter) {
+            setTimeout(function() {
+                item[counter].classList.add('view');
+                counter++;
+                if (counter < item.length) show(counter);
+            },50);
+        })(0);
+    };
+    $(document).ready(function() {
+        $(".fancybox").fancybox({
+            openEffect	: 'none',
+            closeEffect	: 'none'
+        });
+    });
+</script>
 
 
     </body>

@@ -45,9 +45,13 @@
                     
                     <a class="nav-link" href="about.php"> <i class="fas fa-user"></i>  About Me</a>
                 </li>
+                <li class="nav-item" data-target="skills">
+
+                    <a class="nav-link" href="skills.php">  <i class="fas fa-list"></i>  Skills</a>
+                </li>
                 <li class="nav-item" data-target="resume">
                    
-                    <a class="nav-link" href="resume.php">  <i class="fas fa-id-badge"></i>  Resume</a>
+                    <a class="nav-link" href="experienc.php">  <i class="fas fa-id-badge"></i>  Experience</a>
                 </li>
                 <li class="nav-item" data-target="Portfolio">
                    

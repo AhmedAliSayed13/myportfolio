@@ -3,8 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="8461b526-2e46-484b-83eb-403c4a144a9c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/nor.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/nor.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p.php" beforeDir="false" afterPath="$PROJECT_DIR$/p.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +59,7 @@
       <workItem from="1600080449198" duration="2211000" />
       <workItem from="1600085730543" duration="8746000" />
       <workItem from="1600162027936" duration="30000" />
-      <workItem from="1600173324523" duration="2405000" />
+      <workItem from="1600173324523" duration="3821000" />
     </task>
     <servers />
   </component>

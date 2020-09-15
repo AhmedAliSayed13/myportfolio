@@ -232,11 +232,11 @@ text-align: center;
 #resume ul{
     list-style:none;
 }
-#resume .experience{
+#resume .resume{
     list-style:none;
     padding: 15px 0;
 }
-#resume .experience li ,
+#resume .resume li ,
 #resume .education li{
     color: var(--whiteC) ;
 }
@@ -250,7 +250,7 @@ text-align: center;
 #resume .Technologies li:hover{
     color: var(--pinkC);
 }
-#resume .experience li span,
+#resume .resume li span,
 #resume .education li span {
     color: var(--pinkC);
 }
