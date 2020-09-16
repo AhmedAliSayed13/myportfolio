@@ -107,85 +107,1114 @@
                 <div class="col-lg-12">
                     <ul class="filter-links">
                         <li><a href="#">All</a></li>
-                        <li><a href="#">Javascript</a></li>
-                        <li><a href="#">Html</a></li>
+                        <li><a href="#">Almaali</a></li>
+                        <li><a href="#">Apptriner</a></li>
                         <li><a href="#">Css</a></li>
-                        <li><a href="#">Php</a></li>
+                        <li><a href="#"></a></li>
                     </ul>
                 </div>
             </div>
             <div class="row mt-2 filter-sections">
 
-                <div class="col-lg-4 mt-4 float-left col-md-12 col-xs-12 item-filter playful scrollbar style-2 css">
+                <div class="col-lg-4 mt-4 float-left col-md-12 col-xs-12 item-filter playful scrollbar style-2 almaali">
                     <figure class="softeffect">
-                        <img src="imgs/1.png" class="img-responsive img-item-filter" alt="Canal Park - Duluth"  />
+                        <img src="imgs/portfolio/almaali/1.png" class="img-responsive img-item-filter"   />
                         <figcaption>
-                            <h4><a class="fancybox"  href="imgs/1.png"><i class="fas fa-eye"></i></a></h4>
-                            <p  data-toggle="modal" data-target="#exampleModal">More Details</p>
+                            <h4><a data-fancybox="gallery-almaali"  href="imgs/portfolio/almaali/1.png"><i class="fas fa-eye"></i></a></h4>
+                            <p  data-toggle="modal" data-target="#Modal_almaali_1">More Details</p>
                         </figcaption>
                     </figure>
+                </div>
+                <div class="col-lg-4 mt-4 float-left col-md-12 col-xs-12 item-filter playful scrollbar style-2 almaali">
+                    <figure class="softeffect">
+                        <img src="imgs/portfolio/almaali/2.png" class="img-responsive img-item-filter"   />
+                        <figcaption>
+                            <h4><a data-fancybox="gallery-almaali"  href="imgs/portfolio/almaali/2.png"><i class="fas fa-eye"></i></a></h4>
+                            <p  data-toggle="modal" data-target="#Modal_almaali_2">More Details</p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-4 mt-4 float-left col-md-12 col-xs-12 item-filter playful scrollbar style-2 almaali">
+                    <figure class="softeffect">
+                        <img src="imgs/portfolio/almaali/3.png" class="img-responsive img-item-filter"   />
+                        <figcaption>
+                            <h4><a data-fancybox="gallery-almaali"  href="imgs/portfolio/almaali/3.png"><i class="fas fa-eye"></i></a></h4>
+                            <p  data-toggle="modal" data-target="#Modal_almaali_3">More Details</p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-4 mt-4 float-left col-md-12 col-xs-12 item-filter playful scrollbar style-2 almaali">
+                    <figure class="softeffect">
+                        <img src="imgs/portfolio/almaali/4.png" class="img-responsive img-item-filter"   />
+                        <figcaption>
+                            <h4><a data-fancybox="gallery-almaali"  href="imgs/portfolio/almaali/4.png"><i class="fas fa-eye"></i></a></h4>
+                            <p  data-toggle="modal" data-target="#Modal_almaali_4">More Details</p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-4 mt-4 float-left col-md-12 col-xs-12 item-filter playful scrollbar style-2 almaali">
+                    <figure class="softeffect">
+                        <img src="imgs/portfolio/almaali/5.png" class="img-responsive img-item-filter"   />
+                        <figcaption>
+                            <h4><a data-fancybox="gallery-almaali"  href="imgs/portfolio/almaali/5.png"><i class="fas fa-eye"></i></a></h4>
+                            <p  data-toggle="modal" data-target="#Modal_almaali_5">More Details</p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-4 mt-4 float-left col-md-12 col-xs-12 item-filter playful scrollbar style-2 almaali">
+                    <figure class="softeffect">
+                        <img src="imgs/portfolio/almaali/6.png" class="img-responsive img-item-filter"   />
+                        <figcaption>
+                            <h4><a data-fancybox="gallery-almaali"  href="imgs/portfolio/almaali/6.png"><i class="fas fa-eye"></i></a></h4>
+                            <p  data-toggle="modal" data-target="#Modal_almaali_6">More Details</p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-4 mt-4 float-left col-md-12 col-xs-12 item-filter playful scrollbar style-2 almaali">
+                    <figure class="softeffect">
+                        <img src="imgs/portfolio/almaali/7.png" class="img-responsive img-item-filter"   />
+                        <figcaption>
+                            <h4><a data-fancybox="gallery-almaali"  href="imgs/portfolio/almaali/7.png"><i class="fas fa-eye"></i></a></h4>
+                            <p  data-toggle="modal" data-target="#Modal_almaali_7">More Details</p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-4 mt-4 float-left col-md-12 col-xs-12 item-filter playful scrollbar style-2 almaali">
+                    <figure class="softeffect">
+                        <img src="imgs/portfolio/almaali/8.png" class="img-responsive img-item-filter"   />
+                        <figcaption>
+                            <h4><a data-fancybox="gallery-almaali"  href="imgs/portfolio/almaali/8.png"><i class="fas fa-eye"></i></a></h4>
+                            <p  data-toggle="modal" data-target="#Modal_almaali_8">More Details</p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-4 mt-4 float-left col-md-12 col-xs-12 item-filter playful scrollbar style-2 almaali">
+                    <figure class="softeffect">
+                        <img src="imgs/portfolio/almaali/9.png" class="img-responsive img-item-filter"   />
+                        <figcaption>
+                            <h4><a data-fancybox="gallery-almaali"  href="imgs/portfolio/almaali/9.png"><i class="fas fa-eye"></i></a></h4>
+                            <p  data-toggle="modal" data-target="#Modal_almaali_9">More Details</p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-4 mt-4 float-left col-md-12 col-xs-12 item-filter playful scrollbar style-2 almaali">
+                    <figure class="softeffect">
+                        <img src="imgs/portfolio/almaali/10.png" class="img-responsive img-item-filter"   />
+                        <figcaption>
+                            <h4><a data-fancybox="gallery-almaali"  href="imgs/portfolio/almaali/10.png"><i class="fas fa-eye"></i></a></h4>
+                            <p  data-toggle="modal" data-target="#Modal_almaali_10">More Details</p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-4 mt-4 float-left col-md-12 col-xs-12 item-filter playful scrollbar style-2 almaali">
+                    <figure class="softeffect">
+                        <img src="imgs/portfolio/almaali/11.png" class="img-responsive img-item-filter"   />
+                        <figcaption>
+                            <h4><a data-fancybox="gallery-almaali"  href="imgs/portfolio/almaali/11.png"><i class="fas fa-eye"></i></a></h4>
+                            <p  data-toggle="modal" data-target="#Modal_almaali_11">More Details</p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-4 mt-4 float-left col-md-12 col-xs-12 item-filter playful scrollbar style-2 almaali">
+                    <figure class="softeffect">
+                        <img src="imgs/portfolio/almaali/12.png" class="img-responsive img-item-filter"   />
+                        <figcaption>
+                            <h4><a data-fancybox="gallery-almaali"  href="imgs/portfolio/almaali/12.png"><i class="fas fa-eye"></i></a></h4>
+                            <p  data-toggle="modal" data-target="#Modal_almaali_12">More Details</p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-4 mt-4 float-left col-md-12 col-xs-12 item-filter playful scrollbar style-2 almaali">
+                    <figure class="softeffect">
+                        <img src="imgs/portfolio/almaali/13.png" class="img-responsive img-item-filter"   />
+                        <figcaption>
+                            <h4><a data-fancybox="gallery-almaali"  href="imgs/portfolio/almaali/13.png"><i class="fas fa-eye"></i></a></h4>
+                            <p  data-toggle="modal" data-target="#Modal_almaali_13">More Details</p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-4 mt-4 float-left col-md-12 col-xs-12 item-filter playful scrollbar style-2 almaali">
+                    <figure class="softeffect">
+                        <img src="imgs/portfolio/almaali/4.png" class="img-responsive img-item-filter"   />
+                        <figcaption>
+                            <h4><a data-fancybox="gallery-almaali"  href="imgs/portfolio/almaali/14.png"><i class="fas fa-eye"></i></a></h4>
+                            <p  data-toggle="modal" data-target="#Modal_almaali_14">More Details</p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-4 mt-4 float-left col-md-12 col-xs-12 item-filter playful scrollbar style-2 almaali">
+                    <figure class="softeffect">
+                        <img src="imgs/portfolio/almaali/15.png" class="img-responsive img-item-filter"   />
+                        <figcaption>
+                            <h4><a data-fancybox="gallery-almaali"  href="imgs/portfolio/almaali/15.png"><i class="fas fa-eye"></i></a></h4>
+                            <p  data-toggle="modal" data-target="#Modal_almaali_15">More Details</p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-4 mt-4 float-left col-md-12 col-xs-12 item-filter playful scrollbar style-2 almaali">
+                    <figure class="softeffect">
+                        <img src="imgs/portfolio/almaali/16.png" class="img-responsive img-item-filter"   />
+                        <figcaption>
+                            <h4><a data-fancybox="gallery-almaali"  href="imgs/portfolio/almaali/16.png"><i class="fas fa-eye"></i></a></h4>
+                            <p  data-toggle="modal" data-target="#Modal_almaali_16">More Details</p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-4 mt-4 float-left col-md-12 col-xs-12 item-filter playful scrollbar style-2 almaali">
+                    <figure class="softeffect">
+                        <img src="imgs/portfolio/almaali/17.png" class="img-responsive img-item-filter"   />
+                        <figcaption>
+                            <h4><a data-fancybox="gallery-almaali"  href="imgs/portfolio/almaali/17.png"><i class="fas fa-eye"></i></a></h4>
+                            <p  data-toggle="modal" data-target="#Modal_almaali_17">More Details</p>
+                        </figcaption>
+                    </figure>
+                </div>
 
+
+                <div class="col-lg-4 mt-4 float-left col-md-12 col-xs-12 item-filter playful scrollbar style-2 apptriner">
+                    <figure class="softeffect">
+                        <img src="imgs/portfolio/apptriner/1.png" class="img-responsive img-item-filter"   />
+                        <figcaption>
+                            <h4><a data-fancybox="gallery-apptriner"  href="imgs/portfolio/apptriner/1.png"><i class="fas fa-eye"></i></a></h4>
+                            <p  data-toggle="modal" data-target="#Modal_apptriner_1">More Details</p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-4 mt-4 float-left col-md-12 col-xs-12 item-filter playful scrollbar style-2 apptriner">
+                    <figure class="softeffect">
+                        <img src="imgs/portfolio/apptriner/2.png" class="img-responsive img-item-filter"   />
+                        <figcaption>
+                            <h4><a data-fancybox="gallery-apptriner"  data-fancybox="gallery-almaali"  href="imgs/portfolio/apptriner/2.png"><i class="fas fa-eye"></i></a></h4>
+                            <p  data-toggle="modal" data-target="#Modal_apptriner_2">More Details</p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-4 mt-4 float-left col-md-12 col-xs-12 item-filter playful scrollbar style-2 apptriner"`>
+                    <figure class="softeffect">
+                        <img src="imgs/portfolio/apptriner/3.png" class="img-responsive img-item-filter"   />
+                        <figcaption>
+                            <h4><a data-fancybox="gallery-apptriner"  data-fancybox="gallery-almaali"  href="imgs/portfolio/apptriner/3.png"><i class="fas fa-eye"></i></a></h4>
+                            <p  data-toggle="modal" data-target="#Modal_apptriner_3">More Details</p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-4 mt-4 float-left col-md-12 col-xs-12 item-filter playful scrollbar style-2 apptriner">
+                    <figure class="softeffect">
+                        <img src="imgs/portfolio/apptriner/4.png" class="img-responsive img-item-filter"   />
+                        <figcaption>
+                            <h4><a data-fancybox="gallery-apptriner"  data-fancybox="gallery-almaali"  href="imgs/portfolio/apptriner/4.png"><i class="fas fa-eye"></i></a></h4>
+                            <p  data-toggle="modal" data-target="#Modal_apptriner_4">More Details</p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-4 mt-4 float-left col-md-12 col-xs-12 item-filter playful scrollbar style-2 apptriner">
+                    <figure class="softeffect">
+                        <img src="imgs/portfolio/apptriner/5.png" class="img-responsive img-item-filter"   />
+                        <figcaption>
+                            <h4><a data-fancybox="gallery-apptriner"  data-fancybox="gallery-almaali"  href="imgs/portfolio/apptriner/5.png"><i class="fas fa-eye"></i></a></h4>
+                            <p  data-toggle="modal" data-target="#Modal_apptriner_5">More Details</p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-4 mt-4 float-left col-md-12 col-xs-12 item-filter playful scrollbar style-2 apptriner">
+                    <figure class="softeffect">
+                        <img src="imgs/portfolio/apptriner/6.png" class="img-responsive img-item-filter"   />
+                        <figcaption>
+                            <h4><a data-fancybox="gallery-apptriner"  data-fancybox="gallery-almaali"  href="imgs/portfolio/apptriner/6.png"><i class="fas fa-eye"></i></a></h4>
+                            <p  data-toggle="modal" data-target="#Modal_almaali_6">More Details</p>
+                        </figcaption>
+                    </figure>
                 </div>
 
 
             </div>
-
         </div>
-
-
-
-
     </section>
 
     <!-- Button trigger modal -->
 
     <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="Modal_almaali_1" tabindex="-1" role="dialog" aria-labelledby="Modal_almaali_1" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Almaali Website</h5>
                 </div>
                 <div class="modal-body">
-                  <div class="container">
-                    <div class="row">
-                      <div class="col-lg-6">
-                      <div class="item-filter-pop-up playful scrollbar style-2">
-                            <img src="imgs/1.png" class="img-responsive img-item-filter" alt="Canal Park - Duluth"  />
-                      </div>
-                      </div>
-                      <div class="col-lg-6 project-details">
-                        <header> Technical Skills</header>
-                        <ul class="ul-project-describe">
-                          <li>Responsive WebSite with flex box and media Query.</li>
-                          <li>Responsive WebSite with flex box and media Query.</li>
-                          <li>Responsive WebSite with flex box and media Query.</li>
-                          <li>Responsive WebSite with flex box and media Query.</li>
-                        </ul>
-                        <header>Project Informations</header>
-                        <ul class="ul-project-describe">
-                          <li><span class="project-info-head">Client : </span>Jumeirah Company</li>
-                          <li></li>
-                          <li></li>
-                          <li></li>
-                        </ul>
-                          <a href="#" class="btn btn-info">
-                              <i class="fa fa-globe"></i>
-                              WebSite
-                          </a>
-                          <a class="btn btn-info" href="Ahmed-Ali-CV.pdf"><i class="fas fa-eye"></i> Ahmed Ali CV</a>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="item-filter-pop-up playful scrollbar style-2">
+                                    <img src="imgs/portfolio/almaali/1.png" class="img-responsive img-item-filter"  />
+                                </div>
+                            </div>
+                            <div class="col-lg-6 project-details">
+                                <header> Technical Skills</header>
+                                <ul class="ul-project-describe">
+                                    <li>Responsive WebSite with flex box and media Query..</li>
+                                    <li>Using Laravel Framework.</li>
+                                    <li>Using Vue JS.</li>
+                                    <li>Using Laravel Api.</li>
+                                    <li>Using Mysql.</li>
+                                    <li>Using HTML,CSS,Boostrap.</li>
+                                    <li>Using Jquery,Javascript.</li>
+                                    <li>Using Git.</li>
+                                </ul>
+                                <header>Project Informations</header>
+                                <ul class="ul-project-describe">
+                                    <li><span class="project-info-head">Client : </span>Almaali Medical Clinic</li>
+                                    <li><span class="project-info-head">Service : </span>Web Development</li>
+                                </ul>
+                                <a href="http://167.172.191.180/" class="btn btn-info"><i class="fa fa-globe"></i>WebSite</a>
+                                <a class="btn btn-info" href="Ahmed-Ali-CV.pdf"><i class="fas fa-eye"></i> Ahmed Ali CV</a>
 
-                      </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
                 <div class="modal-footer">
-                  <div>
-                      <button type="button" class="btn btn-danger" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span> Close
-                      </button>
+                    <div>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span> Close
+                        </button>
 
-                  </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="Modal_almaali_2" tabindex="-1" role="dialog" aria-labelledby="Modal_almaali_2" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Almaali Website</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="item-filter-pop-up playful scrollbar style-2">
+                                    <img src="imgs/portfolio/almaali/1.png" class="img-responsive img-item-filter"  />
+                                </div>
+                            </div>
+                            <div class="col-lg-6 project-details">
+                                <header> Technical Skills</header>
+                                <ul class="ul-project-describe">
+                                    <li>Responsive WebSite with flex box and media Query..</li>
+                                    <li>Using Laravel Framework.</li>
+                                    <li>Using Vue JS.</li>
+                                    <li>Using Laravel Api.</li>
+                                    <li>Using Mysql.</li>
+                                    <li>Using HTML,CSS,Boostrap.</li>
+                                    <li>Using Jquery,Javascript.</li>
+                                    <li>Using Git.</li>
+                                </ul>
+                                <header>Project Informations</header>
+                                <ul class="ul-project-describe">
+                                    <li><span class="project-info-head">Client : </span>Almaali Medical Clinic</li>
+                                    <li><span class="project-info-head">Service : </span>Web Development</li>
+                                </ul>
+                                <a href="http://167.172.191.180/" class="btn btn-info"><i class="fa fa-globe"></i>WebSite</a>
+                                <a class="btn btn-info" href="Ahmed-Ali-CV.pdf"><i class="fas fa-eye"></i> Ahmed Ali CV</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span> Close
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="Modal_almaali_3" tabindex="-1" role="dialog" aria-labelledby="Modal_almaali_3" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Almaali Website</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="item-filter-pop-up playful scrollbar style-2">
+                                    <img src="imgs/portfolio/almaali/3.png" class="img-responsive img-item-filter"  />
+                                </div>
+                            </div>
+                            <div class="col-lg-6 project-details">
+                                <header> Technical Skills</header>
+                                <ul class="ul-project-describe">
+                                    <li>Responsive WebSite with flex box and media Query..</li>
+                                    <li>Using Laravel Framework.</li>
+                                    <li>Using Vue JS.</li>
+                                    <li>Using Laravel Api.</li>
+                                    <li>Using Mysql.</li>
+                                    <li>Using HTML,CSS,Boostrap.</li>
+                                    <li>Using Jquery,Javascript.</li>
+                                    <li>Using Git.</li>
+                                </ul>
+                                <header>Project Informations</header>
+                                <ul class="ul-project-describe">
+                                    <li><span class="project-info-head">Client : </span>Almaali Medical Clinic</li>
+                                    <li><span class="project-info-head">Service : </span>Web Development</li>
+                                </ul>
+                                <a href="http://167.172.191.180/" class="btn btn-info"><i class="fa fa-globe"></i>WebSite</a>
+                                <a class="btn btn-info" href="Ahmed-Ali-CV.pdf"><i class="fas fa-eye"></i> Ahmed Ali CV</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span> Close
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="Modal_almaali_4" tabindex="-1" role="dialog" aria-labelledby="Modal_almaali_4" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Almaali Website</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="item-filter-pop-up playful scrollbar style-2">
+                                    <img src="imgs/portfolio/almaali/4.png" class="img-responsive img-item-filter"  />
+                                </div>
+                            </div>
+                            <div class="col-lg-6 project-details">
+                                <header> Technical Skills</header>
+                                <ul class="ul-project-describe">
+                                    <li>Responsive WebSite with flex box and media Query..</li>
+                                    <li>Using Laravel Framework.</li>
+                                    <li>Using Vue JS.</li>
+                                    <li>Using Laravel Api.</li>
+                                    <li>Using Mysql.</li>
+                                    <li>Using HTML,CSS,Boostrap.</li>
+                                    <li>Using Jquery,Javascript.</li>
+                                    <li>Using Git.</li>
+                                </ul>
+                                <header>Project Informations</header>
+                                <ul class="ul-project-describe">
+                                    <li><span class="project-info-head">Client : </span>Almaali Medical Clinic</li>
+                                    <li><span class="project-info-head">Service : </span>Web Development</li>
+                                </ul>
+                                <a href="http://167.172.191.180/" class="btn btn-info"><i class="fa fa-globe"></i>WebSite</a>
+                                <a class="btn btn-info" href="Ahmed-Ali-CV.pdf"><i class="fas fa-eye"></i> Ahmed Ali CV</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span> Close
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="Modal_almaali_5" tabindex="-1" role="dialog" aria-labelledby="Modal_almaali_5" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Almaali Website</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="item-filter-pop-up playful scrollbar style-2">
+                                    <img src="imgs/portfolio/almaali/5.png" class="img-responsive img-item-filter"  />
+                                </div>
+                            </div>
+                            <div class="col-lg-6 project-details">
+                                <header> Technical Skills</header>
+                                <ul class="ul-project-describe">
+                                    <li>Responsive WebSite with flex box and media Query..</li>
+                                    <li>Using Laravel Framework.</li>
+                                    <li>Using Vue JS.</li>
+                                    <li>Using Laravel Api.</li>
+                                    <li>Using Mysql.</li>
+                                    <li>Using HTML,CSS,Boostrap.</li>
+                                    <li>Using Jquery,Javascript.</li>
+                                    <li>Using Git.</li>
+                                </ul>
+                                <header>Project Informations</header>
+                                <ul class="ul-project-describe">
+                                    <li><span class="project-info-head">Client : </span>Almaali Medical Clinic</li>
+                                    <li><span class="project-info-head">Service : </span>Web Development</li>
+                                </ul>
+                                <a href="http://167.172.191.180/" class="btn btn-info"><i class="fa fa-globe"></i>WebSite</a>
+                                <a class="btn btn-info" href="Ahmed-Ali-CV.pdf"><i class="fas fa-eye"></i> Ahmed Ali CV</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span> Close
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="Modal_almaali_6" tabindex="-1" role="dialog" aria-labelledby="Modal_almaali_6" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Almaali Website</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="item-filter-pop-up playful scrollbar style-2">
+                                    <img src="imgs/portfolio/almaali/6.png" class="img-responsive img-item-filter"  />
+                                </div>
+                            </div>
+                            <div class="col-lg-6 project-details">
+                                <header> Technical Skills</header>
+                                <ul class="ul-project-describe">
+                                    <li>Responsive WebSite with flex box and media Query..</li>
+                                    <li>Using Laravel Framework.</li>
+                                    <li>Using Vue JS.</li>
+                                    <li>Using Laravel Api.</li>
+                                    <li>Using Mysql.</li>
+                                    <li>Using HTML,CSS,Boostrap.</li>
+                                    <li>Using Jquery,Javascript.</li>
+                                    <li>Using Git.</li>
+                                </ul>
+                                <header>Project Informations</header>
+                                <ul class="ul-project-describe">
+                                    <li><span class="project-info-head">Client : </span>Almaali Medical Clinic</li>
+                                    <li><span class="project-info-head">Service : </span>Web Development</li>
+                                </ul>
+                                <a href="http://167.172.191.180/" class="btn btn-info"><i class="fa fa-globe"></i>WebSite</a>
+                                <a class="btn btn-info" href="Ahmed-Ali-CV.pdf"><i class="fas fa-eye"></i> Ahmed Ali CV</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span> Close
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="Modal_almaali_7" tabindex="-1" role="dialog" aria-labelledby="Modal_almaali_7" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Almaali Website</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="item-filter-pop-up playful scrollbar style-2">
+                                    <img src="imgs/portfolio/almaali/7.png" class="img-responsive img-item-filter"  />
+                                </div>
+                            </div>
+                            <div class="col-lg-6 project-details">
+                                <header> Technical Skills</header>
+                                <ul class="ul-project-describe">
+                                    <li>Responsive WebSite with flex box and media Query..</li>
+                                    <li>Using Laravel Framework.</li>
+                                    <li>Using Vue JS.</li>
+                                    <li>Using Laravel Api.</li>
+                                    <li>Using Mysql.</li>
+                                    <li>Using HTML,CSS,Boostrap.</li>
+                                    <li>Using Jquery,Javascript.</li>
+                                    <li>Using Git.</li>
+                                </ul>
+                                <header>Project Informations</header>
+                                <ul class="ul-project-describe">
+                                    <li><span class="project-info-head">Client : </span>Almaali Medical Clinic</li>
+                                    <li><span class="project-info-head">Service : </span>Web Development</li>
+                                </ul>
+                                <a href="http://167.172.191.180/" class="btn btn-info"><i class="fa fa-globe"></i>WebSite</a>
+                                <a class="btn btn-info" href="Ahmed-Ali-CV.pdf"><i class="fas fa-eye"></i> Ahmed Ali CV</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span> Close
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="Modal_almaali_8" tabindex="-1" role="dialog" aria-labelledby="Modal_almaali_8" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Almaali Website</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="item-filter-pop-up playful scrollbar style-2">
+                                    <img src="imgs/portfolio/almaali/8.png" class="img-responsive img-item-filter"  />
+                                </div>
+                            </div>
+                            <div class="col-lg-6 project-details">
+                                <header> Technical Skills</header>
+                                <ul class="ul-project-describe">
+                                    <li>Responsive WebSite with flex box and media Query..</li>
+                                    <li>Using Laravel Framework.</li>
+                                    <li>Using Vue JS.</li>
+                                    <li>Using Laravel Api.</li>
+                                    <li>Using Mysql.</li>
+                                    <li>Using HTML,CSS,Boostrap.</li>
+                                    <li>Using Jquery,Javascript.</li>
+                                    <li>Using Git.</li>
+                                </ul>
+                                <header>Project Informations</header>
+                                <ul class="ul-project-describe">
+                                    <li><span class="project-info-head">Client : </span>Almaali Medical Clinic</li>
+                                    <li><span class="project-info-head">Service : </span>Web Development</li>
+                                </ul>
+                                <a href="http://167.172.191.180/" class="btn btn-info"><i class="fa fa-globe"></i>WebSite</a>
+                                <a class="btn btn-info" href="Ahmed-Ali-CV.pdf"><i class="fas fa-eye"></i> Ahmed Ali CV</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span> Close
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="Modal_almaali_9" tabindex="-1" role="dialog" aria-labelledby="Modal_almaali_9" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Almaali Website</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="item-filter-pop-up playful scrollbar style-2">
+                                    <img src="imgs/portfolio/almaali/9.png" class="img-responsive img-item-filter"  />
+                                </div>
+                            </div>
+                            <div class="col-lg-6 project-details">
+                                <header> Technical Skills</header>
+                                <ul class="ul-project-describe">
+                                    <li>Responsive WebSite with flex box and media Query..</li>
+                                    <li>Using Laravel Framework.</li>
+                                    <li>Using Vue JS.</li>
+                                    <li>Using Laravel Api.</li>
+                                    <li>Using Mysql.</li>
+                                    <li>Using HTML,CSS,Boostrap.</li>
+                                    <li>Using Jquery,Javascript.</li>
+                                    <li>Using Git.</li>
+                                </ul>
+                                <header>Project Informations</header>
+                                <ul class="ul-project-describe">
+                                    <li><span class="project-info-head">Client : </span>Almaali Medical Clinic</li>
+                                    <li><span class="project-info-head">Service : </span>Web Development</li>
+                                </ul>
+                                <a href="http://167.172.191.180/" class="btn btn-info"><i class="fa fa-globe"></i>WebSite</a>
+                                <a class="btn btn-info" href="Ahmed-Ali-CV.pdf"><i class="fas fa-eye"></i> Ahmed Ali CV</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span> Close
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="Modal_almaali_10" tabindex="-1" role="dialog" aria-labelledby="Modal_almaali_10" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Almaali Website</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="item-filter-pop-up playful scrollbar style-2">
+                                    <img src="imgs/portfolio/almaali/10.png" class="img-responsive img-item-filter"  />
+                                </div>
+                            </div>
+                            <div class="col-lg-6 project-details">
+                                <header> Technical Skills</header>
+                                <ul class="ul-project-describe">
+                                    <li>Responsive WebSite with flex box and media Query..</li>
+                                    <li>Using Laravel Framework.</li>
+                                    <li>Using Vue JS.</li>
+                                    <li>Using Laravel Api.</li>
+                                    <li>Using Mysql.</li>
+                                    <li>Using HTML,CSS,Boostrap.</li>
+                                    <li>Using Jquery,Javascript.</li>
+                                    <li>Using Git.</li>
+                                </ul>
+                                <header>Project Informations</header>
+                                <ul class="ul-project-describe">
+                                    <li><span class="project-info-head">Client : </span>Almaali Medical Clinic</li>
+                                    <li><span class="project-info-head">Service : </span>Web Development</li>
+                                </ul>
+                                <a href="http://167.172.191.180/" class="btn btn-info"><i class="fa fa-globe"></i>WebSite</a>
+                                <a class="btn btn-info" href="Ahmed-Ali-CV.pdf"><i class="fas fa-eye"></i> Ahmed Ali CV</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span> Close
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="Modal_almaali_11" tabindex="-1" role="dialog" aria-labelledby="Modal_almaali_11" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Almaali Website</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="item-filter-pop-up playful scrollbar style-2">
+                                    <img src="imgs/portfolio/almaali/11.png" class="img-responsive img-item-filter"  />
+                                </div>
+                            </div>
+                            <div class="col-lg-6 project-details">
+                                <header> Technical Skills</header>
+                                <ul class="ul-project-describe">
+                                    <li>Responsive WebSite with flex box and media Query..</li>
+                                    <li>Using Laravel Framework.</li>
+                                    <li>Using Vue JS.</li>
+                                    <li>Using Laravel Api.</li>
+                                    <li>Using Mysql.</li>
+                                    <li>Using HTML,CSS,Boostrap.</li>
+                                    <li>Using Jquery,Javascript.</li>
+                                    <li>Using Git.</li>
+                                </ul>
+                                <header>Project Informations</header>
+                                <ul class="ul-project-describe">
+                                    <li><span class="project-info-head">Client : </span>Almaali Medical Clinic</li>
+                                    <li><span class="project-info-head">Service : </span>Web Development</li>
+                                </ul>
+                                <a href="http://167.172.191.180/" class="btn btn-info"><i class="fa fa-globe"></i>WebSite</a>
+                                <a class="btn btn-info" href="Ahmed-Ali-CV.pdf"><i class="fas fa-eye"></i> Ahmed Ali CV</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span> Close
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="Modal_almaali_12" tabindex="-1" role="dialog" aria-labelledby="Modal_almaali_12" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Almaali Website</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="item-filter-pop-up playful scrollbar style-2">
+                                    <img src="imgs/portfolio/almaali/12.png" class="img-responsive img-item-filter"  />
+                                </div>
+                            </div>
+                            <div class="col-lg-6 project-details">
+                                <header> Technical Skills</header>
+                                <ul class="ul-project-describe">
+                                    <li>Responsive WebSite with flex box and media Query..</li>
+                                    <li>Using Laravel Framework.</li>
+                                    <li>Using Vue JS.</li>
+                                    <li>Using Laravel Api.</li>
+                                    <li>Using Mysql.</li>
+                                    <li>Using HTML,CSS,Boostrap.</li>
+                                    <li>Using Jquery,Javascript.</li>
+                                    <li>Using Git.</li>
+                                </ul>
+                                <header>Project Informations</header>
+                                <ul class="ul-project-describe">
+                                    <li><span class="project-info-head">Client : </span>Almaali Medical Clinic</li>
+                                    <li><span class="project-info-head">Service : </span>Web Development</li>
+                                </ul>
+                                <a href="http://167.172.191.180/" class="btn btn-info"><i class="fa fa-globe"></i>WebSite</a>
+                                <a class="btn btn-info" href="Ahmed-Ali-CV.pdf"><i class="fas fa-eye"></i> Ahmed Ali CV</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span> Close
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="Modal_almaali_13" tabindex="-1" role="dialog" aria-labelledby="Modal_almaali_13" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Almaali Website</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="item-filter-pop-up playful scrollbar style-2">
+                                    <img src="imgs/portfolio/almaali/13.png" class="img-responsive img-item-filter"  />
+                                </div>
+                            </div>
+                            <div class="col-lg-6 project-details">
+                                <header> Technical Skills</header>
+                                <ul class="ul-project-describe">
+                                    <li>Responsive WebSite with flex box and media Query..</li>
+                                    <li>Using Laravel Framework.</li>
+                                    <li>Using Vue JS.</li>
+                                    <li>Using Laravel Api.</li>
+                                    <li>Using Mysql.</li>
+                                    <li>Using HTML,CSS,Boostrap.</li>
+                                    <li>Using Jquery,Javascript.</li>
+                                    <li>Using Git.</li>
+                                </ul>
+                                <header>Project Informations</header>
+                                <ul class="ul-project-describe">
+                                    <li><span class="project-info-head">Client : </span>Almaali Medical Clinic</li>
+                                    <li><span class="project-info-head">Service : </span>Web Development</li>
+                                </ul>
+                                <a href="http://167.172.191.180/" class="btn btn-info"><i class="fa fa-globe"></i>WebSite</a>
+                                <a class="btn btn-info" href="Ahmed-Ali-CV.pdf"><i class="fas fa-eye"></i> Ahmed Ali CV</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span> Close
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="Modal_almaali_14" tabindex="-1" role="dialog" aria-labelledby="Modal_almaali_14" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Almaali Website</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="item-filter-pop-up playful scrollbar style-2">
+                                    <img src="imgs/portfolio/almaali/14.png" class="img-responsive img-item-filter"  />
+                                </div>
+                            </div>
+                            <div class="col-lg-6 project-details">
+                                <header> Technical Skills</header>
+                                <ul class="ul-project-describe">
+                                    <li>Responsive WebSite with flex box and media Query..</li>
+                                    <li>Using Laravel Framework.</li>
+                                    <li>Using Vue JS.</li>
+                                    <li>Using Laravel Api.</li>
+                                    <li>Using Mysql.</li>
+                                    <li>Using HTML,CSS,Boostrap.</li>
+                                    <li>Using Jquery,Javascript.</li>
+                                    <li>Using Git.</li>
+                                </ul>
+                                <header>Project Informations</header>
+                                <ul class="ul-project-describe">
+                                    <li><span class="project-info-head">Client : </span>Almaali Medical Clinic</li>
+                                    <li><span class="project-info-head">Service : </span>Web Development</li>
+                                </ul>
+                                <a href="http://167.172.191.180/" class="btn btn-info"><i class="fa fa-globe"></i>WebSite</a>
+                                <a class="btn btn-info" href="Ahmed-Ali-CV.pdf"><i class="fas fa-eye"></i> Ahmed Ali CV</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span> Close
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="Modal_almaali_15" tabindex="-1" role="dialog" aria-labelledby="Modal_almaali_15" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Almaali Website</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="item-filter-pop-up playful scrollbar style-2">
+                                    <img src="imgs/portfolio/almaali/15.png" class="img-responsive img-item-filter"  />
+                                </div>
+                            </div>
+                            <div class="col-lg-6 project-details">
+                                <header> Technical Skills</header>
+                                <ul class="ul-project-describe">
+                                    <li>Responsive WebSite with flex box and media Query..</li>
+                                    <li>Using Laravel Framework.</li>
+                                    <li>Using Vue JS.</li>
+                                    <li>Using Laravel Api.</li>
+                                    <li>Using Mysql.</li>
+                                    <li>Using HTML,CSS,Boostrap.</li>
+                                    <li>Using Jquery,Javascript.</li>
+                                    <li>Using Git.</li>
+                                </ul>
+                                <header>Project Informations</header>
+                                <ul class="ul-project-describe">
+                                    <li><span class="project-info-head">Client : </span>Almaali Medical Clinic</li>
+                                    <li><span class="project-info-head">Service : </span>Web Development</li>
+                                </ul>
+                                <a href="http://167.172.191.180/" class="btn btn-info"><i class="fa fa-globe"></i>WebSite</a>
+                                <a class="btn btn-info" href="Ahmed-Ali-CV.pdf"><i class="fas fa-eye"></i> Ahmed Ali CV</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span> Close
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="Modal_almaali_16" tabindex="-1" role="dialog" aria-labelledby="Modal_almaali_16" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Almaali Website</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="item-filter-pop-up playful scrollbar style-2">
+                                    <img src="imgs/portfolio/almaali/16.png" class="img-responsive img-item-filter"  />
+                                </div>
+                            </div>
+                            <div class="col-lg-6 project-details">
+                                <header> Technical Skills</header>
+                                <ul class="ul-project-describe">
+                                    <li>Responsive WebSite with flex box and media Query..</li>
+                                    <li>Using Laravel Framework.</li>
+                                    <li>Using Vue JS.</li>
+                                    <li>Using Laravel Api.</li>
+                                    <li>Using Mysql.</li>
+                                    <li>Using HTML,CSS,Boostrap.</li>
+                                    <li>Using Jquery,Javascript.</li>
+                                    <li>Using Git.</li>
+                                </ul>
+                                <header>Project Informations</header>
+                                <ul class="ul-project-describe">
+                                    <li><span class="project-info-head">Client : </span>Almaali Medical Clinic</li>
+                                    <li><span class="project-info-head">Service : </span>Web Development</li>
+                                </ul>
+                                <a href="http://167.172.191.180/" class="btn btn-info"><i class="fa fa-globe"></i>WebSite</a>
+                                <a class="btn btn-info" href="Ahmed-Ali-CV.pdf"><i class="fas fa-eye"></i> Ahmed Ali CV</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span> Close
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="Modal_almaali_17" tabindex="-1" role="dialog" aria-labelledby="Modal_almaali_17" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Almaali Website</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="item-filter-pop-up playful scrollbar style-2">
+                                    <img src="imgs/portfolio/almaali/17.png" class="img-responsive img-item-filter"  />
+                                </div>
+                            </div>
+                            <div class="col-lg-6 project-details">
+                                <header> Technical Skills</header>
+                                <ul class="ul-project-describe">
+                                    <li>Responsive WebSite with flex box and media Query..</li>
+                                    <li>Using Laravel Framework.</li>
+                                    <li>Using Vue JS.</li>
+                                    <li>Using Laravel Api.</li>
+                                    <li>Using Mysql.</li>
+                                    <li>Using HTML,CSS,Boostrap.</li>
+                                    <li>Using Jquery,Javascript.</li>
+                                    <li>Using Git.</li>
+                                </ul>
+                                <header>Project Informations</header>
+                                <ul class="ul-project-describe">
+                                    <li><span class="project-info-head">Client : </span>Almaali Medical Clinic</li>
+                                    <li><span class="project-info-head">Service : </span>Web Development</li>
+                                </ul>
+                                <a href="http://167.172.191.180/" class="btn btn-info"><i class="fa fa-globe"></i>WebSite</a>
+                                <a class="btn btn-info" href="Ahmed-Ali-CV.pdf"><i class="fas fa-eye"></i> Ahmed Ali CV</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span> Close
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="modal fade" id="Modal_apptriner_1" tabindex="-1" role="dialog" aria-labelledby="Modal_apptriner_1" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Apptriner Website</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="item-filter-pop-up playful scrollbar style-2">
+                                    <img src="imgs/portfolio/apptriner/1.png" class="img-responsive img-item-filter"  />
+                                </div>
+                            </div>
+                            <div class="col-lg-6 project-details">
+                                <header> Technical Skills</header>
+                                <ul class="ul-project-describe">
+                                    <li>Responsive WebSite with flex box and media Query..</li>
+                                    <li>Using Laravel Framework.</li>
+                                    <li>Using Vue JS.</li>
+                                    <li>Using Laravel Api.</li>
+                                    <li>Using Mysql.</li>
+                                    <li>Using HTML,CSS,Boostrap.</li>
+                                    <li>Using Jquery,Javascript.</li>
+                                    <li>Using Git.</li>
+                                </ul>
+                                <header>Project Informations</header>
+                                <ul class="ul-project-describe">
+                                    <li><span class="project-info-head">Client : </span>Apptriner Company</li>
+                                    <li><span class="project-info-head">Service : </span>Web Development</li>
+                                </ul>
+                                <a href="http://167.172.191.180/" class="btn btn-info"><i class="fa fa-globe"></i>WebSite</a>
+                                <a class="btn btn-info" href="Ahmed-Ali-CV.pdf"><i class="fas fa-eye"></i> Ahmed Ali CV</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span> Close
+                        </button>
+
+                    </div>
                 </div>
             </div>
         </div>
@@ -203,87 +1232,84 @@
 <script src="js/wow.js"></script>
 <script>new WOW().init();
 </script>
-<script>
-    VANTA.NET({
-        el: "#portfolio",
-        mouseControls: true,
-        touchControls: true,
-        minHeight: 200.00,
-        minWidth: 200.00,
-        scale: 1.00,
-        scaleMobile: 1.00,
-        color: 0xf00052,
-        backgroundColor: 0xd0220,
-        points: 12.00,
-        maxDistance: 22.00,
-        spacing: 19.00
-    })
+    <script>
+        VANTA.NET({
+            el: "#portfolio",
+            mouseControls: true,
+            touchControls: true,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            color: 0xf00052,
+            backgroundColor: 0xd0220,
+            points: 12.00,
+            maxDistance: 22.00,
+            spacing: 19.00
+        })
 
 
-    /*  Javascript filter
-    ---------------------------------*/
-    // animate divs on start
-    var items = document.querySelectorAll('.filter-sections div');
-    animate(items);
+        /*  Javascript filter
+        ---------------------------------*/
+        // animate divs on start
+        var items = document.querySelectorAll('.filter-sections div');
+        animate(items);
 
-    // filter on click
-    each('.filter-links li a', function(el) {
-        el.addEventListener('click', function(e) {
-            e.preventDefault();
-            filterLinks(el);
-        });
-    });
-
-    // filter links functions
-    function filterLinks(element) {
-        // get text
-        var el = element.textContent,
-            // convert to lowercase
-            linksTolowerCase = el.toLowerCase();
-        // if all remove all elements
-        if (el === 'All') {
-            // first show all view class
-            each('.view', function(e) {
-                e.classList.remove('view');
+        // filter on click
+        each('.filter-links li a', function(el) {
+            el.addEventListener('click', function(e) {
+                e.preventDefault();
+                filterLinks(el);
             });
-            // no show init animation
-            animate(items);
-        } else {
-            // if not click all remove all elements
-            each('.view', function(e) {
-                e.classList.remove('view');
+        });
+
+        // filter links functions
+        function filterLinks(element) {
+            // get text
+            var el = element.textContent,
+                // convert to lowercase
+                linksTolowerCase = el.toLowerCase();
+            // if all remove all elements
+            if (el === 'All') {
+                // first show all view class
+                each('.view', function(e) {
+                    e.classList.remove('view');
+                });
+                // no show init animation
+                animate(items);
+            } else {
+                // if not click all remove all elements
+                each('.view', function(e) {
+                    e.classList.remove('view');
+                });
+            }
+            // show animation for current elements
+            animate(document.querySelectorAll('.' + linksTolowerCase));
+        };
+        // forech arrays
+        function each(el, callback) {
+            var allDivs = document.querySelectorAll(el),
+                alltoArr = Array.prototype.slice.call(allDivs);
+            Array.prototype.forEach.call(alltoArr, function(selector, index) {
+                if (callback) return callback(selector);
             });
-        }
-        // show animation for current elements
-        animate(document.querySelectorAll('.' + linksTolowerCase));
-    };
-    // forech arrays
-    function each(el, callback) {
-        var allDivs = document.querySelectorAll(el),
-            alltoArr = Array.prototype.slice.call(allDivs);
-        Array.prototype.forEach.call(alltoArr, function(selector, index) {
-            if (callback) return callback(selector);
+        };
+        // animate function
+        function animate(item) {
+            (function show(counter) {
+                setTimeout(function() {
+                    item[counter].classList.add('view');
+                    counter++;
+                    if (counter < item.length) show(counter);
+                },50);
+            })(0);
+        };
+        $(document).ready(function() {
+            $(".fancybox").fancybox({
+                openEffect	: 'none',
+                closeEffect	: 'none'
+            });
         });
-    };
-    // animate function
-    function animate(item) {
-        (function show(counter) {
-            setTimeout(function() {
-                item[counter].classList.add('view');
-                counter++;
-                if (counter < item.length) show(counter);
-            },50);
-        })(0);
-    };
-    $(document).ready(function() {
-        $(".fancybox").fancybox({
-            openEffect	: 'none',
-            closeEffect	: 'none'
-        });
-    });
-</script>
-
-
-    </body>
-
-    </html>
+    </script>
+</body>
+</html>

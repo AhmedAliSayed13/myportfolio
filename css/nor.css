@@ -454,7 +454,7 @@ template {
     cursor: pointer;
     float: left;
     margin: 10px 1%;
-    max-height: 225px;
+    max-height: unset;
     max-width: 480px;
     overflow: hidden;
     position: relative;

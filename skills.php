@@ -235,54 +235,6 @@
                         </div>
 
                     </div>
-
-
-<!--                    <div class="col-md-6 col-xs-12">-->
-<!--                        <div class="progress">-->
-<!--                            <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">Laravel </div>-->
-<!--                        </div>-->
-<!--                        <div class="progress">-->
-<!--                            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">Wordpress</div>-->
-<!--                        </div>-->
-<!--                        <div class="progress">-->
-<!--                            <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">PHP</div>-->
-<!--                        </div>-->
-<!--                        <div class="progress">-->
-<!--                            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">Vue js</div>-->
-<!--                        </div>-->
-<!--                        <div class="progress">-->
-<!--                            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">JQuery</div>-->
-<!--                        </div>-->
-<!--                        <div class="progress">-->
-<!--                            <div class="progress-bar" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100">Java Script</div>-->
-<!--                        </div>-->
-<!--                        <div class="progress">-->
-<!--                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">Git</div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="col-md-6 col-xs-12">-->
-<!--                        <div class="progress">-->
-<!--                            <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">Html</div>-->
-<!--                        </div>-->
-<!--                        <div class="progress">-->
-<!--                            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">Css</div>-->
-<!--                        </div>-->
-<!--                        <div class="progress">-->
-<!--                            <div class="progress-bar" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100">Bootstrap</div>-->
-<!--                        </div>-->
-<!--                        <div class="progress">-->
-<!--                            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">Json</div>-->
-<!--                        </div>-->
-<!--                        <div class="progress">-->
-<!--                            <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">Database( Mysql / SQL)</div>-->
-<!--                        </div>-->
-<!--                        <div class="progress">-->
-<!--                            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">SASS</div>-->
-<!--                        </div>-->
-<!--                        <div class="progress">-->
-<!--                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">PhotoShop CS6</div>-->
-<!--                        </div>-->
-<!--                    </div>-->
                 </div>
             </div>
         </div>
