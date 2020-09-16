@@ -51,7 +51,7 @@
                 </li>
                 <li class="nav-item" data-target="resume">
                    
-                    <a class="nav-link" href="experienc.php">  <i class="fas fa-id-badge"></i>  Experience</a>
+                    <a class="nav-link" href="experience.php">  <i class="fas fa-id-badge"></i>  Experience</a>
                 </li>
                 <li class="nav-item" data-target="Portfolio">
                    

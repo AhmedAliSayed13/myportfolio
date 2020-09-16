@@ -5,11 +5,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/about.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/nor.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/nor.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experienc.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-copy.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-copy.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skills.php" beforeDir="false" afterPath="$PROJECT_DIR$/skills.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +60,9 @@
       <workItem from="1600080449198" duration="2211000" />
       <workItem from="1600085730543" duration="8746000" />
       <workItem from="1600162027936" duration="30000" />
-      <workItem from="1600173324523" duration="3821000" />
+      <workItem from="1600173324523" duration="3879000" />
+      <workItem from="1600251550735" duration="857000" />
+      <workItem from="1600259517289" duration="4756000" />
     </task>
     <servers />
   </component>

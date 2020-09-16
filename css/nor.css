@@ -614,3 +614,19 @@ span.project-info-head{
 figcaption i {
     color: var(--pinkC)!important
 }
+.skill-item {
+    padding: 20px 0;
+    margin-bottom: 30px;
+    background: var(--whiteC);
+    border-radius: 12px;
+}
+.font-icon{
+    font-size: 80px;
+}
+.item-precentage{
+    color: #777 !important;
+}
+.item-title{
+    color: var(--pinkC)!important;
+    font-size: 20px;
+}

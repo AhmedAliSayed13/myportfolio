@@ -15,6 +15,8 @@
         <link rel='stylesheet' href='css/fixed.css' />
         <link rel='stylesheet' href="fontawesome/css/all.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
+
         <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@500;600;700&display=swap" rel="stylesheet">
 
     </head>
@@ -44,11 +46,11 @@
                 </li>
                 <li class="nav-item" data-target="skills">
 
-                    <a class="nav-link" href="skills.php">  <i class="fas fa-list"></i>  Skills</a>
+                    <a class="nav-link active" href="skills.php">  <i class="fas fa-list"></i>  Skills</a>
                 </li>
                 <li class="nav-item " data-target="resume">
                    
-                    <a class="nav-link active" href="experienc.php">  <i class="fas fa-id-badge"></i>  Experience</a>
+                    <a class="nav-link " href="experience.php">  <i class="fas fa-id-badge"></i>  Experience</a>
                 </li>
                 <li class="nav-item" data-target="Portfolio">
                    
@@ -98,131 +100,189 @@
         </div>
     </nav>
     <section class="resume wow slideInDown" id="resume">
-        <div class="container">
-            <h2>My Experience</h2>
-            <hr class="break">
-            <div class="row">
-                <div class="col-md-6 col-sm-12 py-4">
-                    <h3>Experience</h3>
-                    <ul class="resume">
-                        <li class="py-2">
-                            <span><i class="fa fa-check"></i>  From November 2018 - Now </span>
-                            <p>Worked  as  a web developer (Full Stack) at  PK company for Programming
-                                (6 October- Giza).</p>
-                            <span class="d-block">Technologies :</span>
-                            <ul class="py-1 Technologies">
-                                <li>Laravel</li> |
-                                <li>WordPress</li> |
-                                <li>PHP</li> |
-                                <li>Html</li> |
-                                <li>Css</li> |
-                                <li>Sasa</li> |
-                                <li>Vue js</li> |
-                                <li>Javascript/Jquery</li> |
-                                <li>Bootstrap</li>|
-                                <li>GIT</li> |
-                                <li>Database(Mysql/sql)</li> |
-                            </ul>
-                        </li>
-                        <li class="py-3">
-                            <span><i class="fa fa-check"></i>  March 2020 From   - Now ( Part Time- Remotely )</span>
-                            <p>Worked  as  a Full Stack developer  at  Kabtech Corp Company
-                               .</p>
-                            <span class="d-block">Technologies :</span>
-                            <ul class="py-1 Technologies">
-                                <li>Laravel</li> |
-                                <li>WordPress</li> |
-                                <li>PHP</li> |
-                                <li>Html</li> |
-                                <li>Css</li> |
-                                <li>Sasa</li> |
-                                <li>Vue js</li> |
-                                <li>Javascript/Jquery</li> |
-                                <li>Bootstrap</li>|
-                                <li>GIT</li> |
-                                <li>Database(Mysql/sql)</li> |
-                            </ul>
-                        </li>
-                        <li class="py-3">
-                            <span><i class="fa fa-check"></i> From  June 2018 - September 2018</span>
-                            <p>Training as a Web Developer at EELU Company (Assuit- Egypt). </p>
-                            <span class="d-block">Technologies :</span>
-                            <ul class="py-1 Technologies">
-                                <li>Laravel</li> |
-                                <li>Html</li> |
-                                <li>Css</li> |
-                                <li>Jquery</li> |
-                                <li>Bootstrap</li> |
-                                <li>Java Script</li>
-                            </ul>
-                        </li>
 
-                    </ul>
-                </div>
-                <div class="col-md-6 col-sm-12 py-4">
-                    <h3>Education</h3>
-                    <ul class="education">
-                        <li class="py-2">
-                            <span><i class="fa fa-check"></i> From 2014 - 2018 </span>
-                            <p>
-                                BSC of Computer Science  - Faculty of Computer and Information ,<br> Assuit University<br>
-                                and  Information Technology (IT) Department.
-                            </p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+        <div class="container">
             <div class="skills">
                 <h2>My Skills</h2>
                 <hr class="break">
                 <div class="row">
-                    <div class="col-md-6 col-xs-12">
-                        <div class="progress">
-                           <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">Laravel </div>
-                       </div>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">Wordpress</div>
+                    <div class="col-md-12 col-xs-12">
+                        <div class="col-lg-3 float-left text-center ">
+                            <div class="skill-item">
+                                <i class="devicon-laravel-plain-wordmark colored font-icon"></i>
+                                <h2 class="item-precentage" ><span class="counter"> 89 </span><span>%</span></h2>
+                                <p class="item-title">Laravel</p>
+                            </div>
                         </div>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">PHP</div>
+                        <div class="col-lg-3 float-left text-center ">
+                            <div class="skill-item">
+                                <i class="devicon-wordpress-plain-wordmark colored font-icon"></i>
+                                <h2 class="item-precentage" ><span class="counter"> 92 </span><span>%</span></h2>
+                                <p class="item-title">Wordpress</p>
+                            </div>
                         </div>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">Vue js</div>
+                        <div class="col-lg-3 float-left text-center ">
+                            <div class="skill-item">
+                                <i class="devicon-php-plain font-icon"></i>
+                                <h2 class="item-precentage" ><span class="counter"> 90 </span><span>%</span></h2>
+                                <p class="item-title">Php</p>
+                            </div>
                         </div>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">JQuery</div>
+                        <div class="col-lg-3 float-left text-center ">
+                            <div class="skill-item">
+                                <i class="devicon-vuejs-plain-wordmark colored font-icon"></i>
+                                <h2 class="item-precentage" ><span class="counter"> 70 </span><span>%</span></h2>
+                                <p class="item-title">Vue</p>
+                            </div>
                         </div>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100">Java Script</div>
+                        <div class="col-lg-3 float-left text-center ">
+                            <div class="skill-item">
+                                <i class="devicon-html5-plain-wordmark colored font-icon"></i>
+                                <h2 class="item-precentage" ><span class="counter"> 95 </span><span>%</span></h2>
+                                <p class="item-title">HTML5</p>
+                            </div>
                         </div>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">Git</div>
+                        <div class="col-lg-3 float-left text-center ">
+                            <div class="skill-item">
+                                <i class="devicon-bootstrap-plain-wordmark colored font-icon"></i>
+                                <h2 class="item-precentage" ><span class="counter"> 90 </span><span>%</span></h2>
+                                <p class="item-title">Bootstrap</p>
+                            </div>
                         </div>
+                        <div class="col-lg-3 float-left text-center ">
+                            <div class="skill-item">
+                                <i class="devicon-css3-plain-wordmark colored font-icon"></i>
+                                <h2 class="item-precentage" ><span class="counter"> 92 </span><span>%</span></h2>
+                                <p class="item-title">CSS3</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 float-left text-center ">
+                            <div class="skill-item">
+                                <i class="devicon-sass-original colored font-icon"></i>
+                                <h2 class="item-precentage" ><span class="counter"> 80 </span><span>%</span></h2>
+                                <p class="item-title">Sass</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 float-left text-center ">
+                            <div class="skill-item">
+                                <i class="devicon-git-plain-wordmark colored font-icon"></i>
+                                <h2 class="item-precentage" ><span class="counter"> 95 </span><span>%</span></h2>
+                                <p class="item-title">GIT</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 float-left text-center ">
+                            <div class="skill-item">
+                                <i class="devicon-heroku-original-wordmark colored font-icon"></i>
+                                <h2 class="item-precentage" ><span class="counter"> 95 </span><span>%</span></h2>
+                                <p class="item-title">heroku</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 float-left text-center ">
+                            <div class="skill-item">
+                                <i class="devicon-javascript-plain colored font-icon"></i>
+                                <h2 class="item-precentage" ><span class="counter"> 87 </span><span>%</span></h2>
+                                <p class="item-title">Javascript</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 float-left text-center ">
+                            <div class="skill-item">
+                                <i class="devicon-jquery-plain-wordmark colored font-icon"></i>
+                                <h2 class="item-precentage" ><span class="counter"> 87 </span><span>%</span></h2>
+                                <p class="item-title">Jquery</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 float-left text-center ">
+                            <div class="skill-item">
+                                <i class="devicon-mysql-plain-wordmark colored font-icon"></i>
+                                <h2 class="item-precentage" ><span class="counter"> 90 </span><span>%</span></h2>
+                                <p class="item-title">Mysql</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 float-left text-center ">
+                            <div class="skill-item">
+                                <i class="devicon-csharp-plain-wordmark colored font-icon"></i>
+                                <h2 class="item-precentage" ><span class="counter"> 65 </span><span>%</span></h2>
+                                <p class="item-title">C#</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 float-left text-center ">
+                            <div class="skill-item">
+                                <i class="devicon-cplusplus-plain colored font-icon"></i>
+                                <h2 class="item-precentage" ><span class="counter"> 70 </span><span>%</span></h2>
+                                <p class="item-title">C++</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 float-left text-center ">
+                            <div class="skill-item">
+                                <i class="devicon-photoshop-plain colored font-icon"></i>
+                                <h2 class="item-precentage" ><span class="counter"> 65 </span><span>%</span></h2>
+                                <p class="item-title">Photoshop</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 float-left text-center ">
+                            <div class="skill-item">
+                                <img src="imgs/skills/json.png">
+                                <h2 class="item-precentage" ><span class="counter"> 65 </span><span>%</span></h2>
+                                <p class="item-title">Json</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 float-left text-center ">
+                            <div class="skill-item">
+                                <img src="imgs/skills/ajax.png">
+                                <h2 class="item-precentage" ><span class="counter"> 65 </span><span>%</span></h2>
+                                <p class="item-title">ajax</p>
+                            </div>
+                        </div>
+
                     </div>
-                    <div class="col-md-6 col-xs-12">
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">Html</div>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">Css</div>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100">Bootstrap</div>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">Json</div>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">Database( Mysql / SQL)</div>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">SASS</div>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">PhotoShop CS6</div>
-                        </div>
-                    </div>
-                    </div>
+
+
+<!--                    <div class="col-md-6 col-xs-12">-->
+<!--                        <div class="progress">-->
+<!--                            <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">Laravel </div>-->
+<!--                        </div>-->
+<!--                        <div class="progress">-->
+<!--                            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">Wordpress</div>-->
+<!--                        </div>-->
+<!--                        <div class="progress">-->
+<!--                            <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">PHP</div>-->
+<!--                        </div>-->
+<!--                        <div class="progress">-->
+<!--                            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">Vue js</div>-->
+<!--                        </div>-->
+<!--                        <div class="progress">-->
+<!--                            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">JQuery</div>-->
+<!--                        </div>-->
+<!--                        <div class="progress">-->
+<!--                            <div class="progress-bar" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100">Java Script</div>-->
+<!--                        </div>-->
+<!--                        <div class="progress">-->
+<!--                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">Git</div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="col-md-6 col-xs-12">-->
+<!--                        <div class="progress">-->
+<!--                            <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">Html</div>-->
+<!--                        </div>-->
+<!--                        <div class="progress">-->
+<!--                            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">Css</div>-->
+<!--                        </div>-->
+<!--                        <div class="progress">-->
+<!--                            <div class="progress-bar" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100">Bootstrap</div>-->
+<!--                        </div>-->
+<!--                        <div class="progress">-->
+<!--                            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">Json</div>-->
+<!--                        </div>-->
+<!--                        <div class="progress">-->
+<!--                            <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">Database( Mysql / SQL)</div>-->
+<!--                        </div>-->
+<!--                        <div class="progress">-->
+<!--                            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">SASS</div>-->
+<!--                        </div>-->
+<!--                        <div class="progress">-->
+<!--                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">PhotoShop CS6</div>-->
+<!--                        </div>-->
+<!--                    </div>-->
                 </div>
             </div>
         </div>
@@ -231,6 +291,8 @@
 
     
 <script src="js/jquery-3.4.1.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
 <script src='js/bootstrap.min.js'></script>
 <script src="js/html5shiv.min.js"></script>
 <script src="js/respond.min.js"></script>
@@ -268,7 +330,10 @@
         });
 
 
-
+        $('.counter').counterUp({
+            delay: 10,
+            time: 2000
+        });
 
     </script>
 
