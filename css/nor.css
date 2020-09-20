@@ -391,7 +391,7 @@ template {
 .filter-links li a {
     display: block;
     color: white;
-    padding: 1em 2em;
+    padding: 1.5em 1.5em;
     text-decoration: none;
 }
 

@@ -3,9 +3,42 @@
   <component name="ChangeListManager">
     <list default="true" id="8461b526-2e46-484b-83eb-403c4a144a9c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/portfolio/chart/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/portfolio/chart/7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/portfolio/chart/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/portfolio/chart/8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/portfolio/chart/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/nor.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/nor.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/portfolio/PK/1 (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/portfolio/PK/1 (3).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/portfolio/PK/1 (4).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/portfolio/PK/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/portfolio/PK/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/portfolio/PK/2 (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/portfolio/PK/2 (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/portfolio/PK/2 (3).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/portfolio/PK/2 (4).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/portfolio/PK/2 (5).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/portfolio/market/screencapture-colorlib-preview-theme-karma-2020-09-15-15_27_33.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/portfolio/market/screencapture-colorlib-preview-theme-karma-cart-html-2020-09-15-15_28_53.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/portfolio/market/screencapture-colorlib-preview-theme-karma-category-html-2020-09-15-15_27_58.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/portfolio/market/screencapture-colorlib-preview-theme-karma-confirmation-html-2020-09-15-15_29_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/portfolio/market/screencapture-colorlib-preview-theme-karma-contact-html-2020-09-15-15_29_33.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/portfolio/market/screencapture-colorlib-preview-theme-karma-login-html-2020-09-15-15_29_20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/portfolio/market/screencapture-colorlib-preview-theme-karma-single-product-html-2020-09-15-15_28_18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/portfolio/travel2drive/1 (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/portfolio/travel2drive/1 (10).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/portfolio/travel2drive/1 (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/portfolio/travel2drive/1 (3).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/portfolio/travel2drive/1 (4).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/portfolio/travel2drive/1 (5).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/portfolio/travel2drive/1 (6).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/portfolio/travel2drive/1 (7).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/portfolio/travel2drive/1 (8).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/portfolio/travel2drive/1 (9).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/portfolio/travel2drive/screencapture-dev-travel2drive-travel2drive-ar-apply-now-ar-2020-09-15-15_17_50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/portfolio/travel2drive/screencapture-dev-travel2drive-travel2drive-ar-become-agent-ar-2020-09-15-15_19_28.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/portfolio/travel2drive/screencapture-dev-travel2drive-travel2drive-ar-digital-permit-ar-2020-09-15-15_22_44.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/portfolio/travel2drive/screencapture-dev-travel2drive-travel2drive-ar-faqs-ar-2020-09-15-15_23_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/portfolio/travel2drive/screencapture-dev-travel2drive-travel2drive-ar-home-2020-09-15-15_17_27.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/portfolio/travel2drive/screencapture-dev-travel2drive-travel2drive-ar-how-it-works-ar-2020-09-15-15_18_17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/portfolio/travel2drive/screencapture-dev-travel2drive-travel2drive-ar-our-agents-ar-2020-09-15-15_18_56.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/portfolio/travel2drive/screencapture-dev-travel2drive-travel2drive-ar-pricing-ar-2020-09-15-15_18_35.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/portfolio/travel2drive/screencapture-dev-travel2drive-travel2drive-ar-support-ar-2020-09-15-15_23_32.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,7 +94,9 @@
       <workItem from="1600259517289" duration="4957000" />
       <workItem from="1600268833275" duration="5544000" />
       <workItem from="1600335884563" duration="336000" />
-      <workItem from="1600361485954" duration="1854000" />
+      <workItem from="1600361485954" duration="2089000" />
+      <workItem from="1600604875853" duration="875000" />
+      <workItem from="1600605813897" duration="4810000" />
     </task>
     <servers />
   </component>
