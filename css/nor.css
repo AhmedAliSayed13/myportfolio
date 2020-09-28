@@ -370,7 +370,9 @@ template {
   height: 350px;
   overflow-y: scroll;
 }
-
+.show {
+    display: block;
+}
 .filter-links {
     margin: 0;
     padding: 0;

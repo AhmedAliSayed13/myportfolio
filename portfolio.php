@@ -104,17 +104,17 @@
             <hr class="break">
             <div class="row">
                 <div class="col-lg-12">
-                    <ul class="filter-links">
-                        <li><a href="#">All</a></li>
-                        <li><a href="#">Almaali</a></li>
-                        <li><a href="#">Apptriner</a></li>
-                        <li><a href="#">Moe-Char</a></li>
-                        <li><a href="#">Jumeirah</a></li>
-                        <li><a href="#">Forms</a></li>
-                        <li><a href="#">Market</a></li>
-                        <li><a href="#">Moe</a></li>
-                        <li><a href="#">PK</a></li>
-                        <li><a href="#">Travel2Drive</a></li>
+                    <ul class="filter-links" id="myBtnContainer">
+                        <li><a class="filter-link" onclick="filterSelection('all')" href="#">All</a></li>
+                        <li><a class="filter-link" onclick="filterSelection('almaali')" href="#">Almaali</a></li>
+                        <li><a class="filter-link" onclick="filterSelection('apptriner')" href="#">Apptriner</a></li>
+                        <li><a class="filter-link" onclick="filterSelection('moe-char')" href="#">Moe-Char</a></li>
+                        <li><a class="filter-link" onclick="filterSelection('jumeirah')" href="#">Jumeirah</a></li>
+                        <li><a class="filter-link" onclick="filterSelection('forms')" href="#">Forms</a></li>
+                        <li><a class="filter-link" onclick="filterSelection('market')" href="#">Market</a></li>
+                        <li><a class="filter-link" onclick="filterSelection('moe')" href="#">Moe</a></li>
+                        <li><a class="filter-link" onclick="filterSelection('pk')" href="#">PK</a></li>
+                        <li><a class="filter-link" onclick="filterSelection('travel2drive')" href="#">Travel2Drive</a></li>
                     </ul>
                 </div>
             </div>
@@ -747,64 +747,124 @@
             points: 12.00,
             maxDistance: 22.00,
             spacing: 19.00
-        })
+        });
+
+
+        $('filter-links li a').click(function () {
+            alert('run');
+        });
+
+
 
 
         /*  Javascript filter
         ---------------------------------*/
         // animate divs on start
-        var items = document.querySelectorAll('.filter-sections div');
-        animate(items);
+        // var items = document.querySelectorAll('.filter-sections div');
+        // animate(items);
+        //
+        // // filter on click
+        //
+        //
+        //
+        //
+        //
+        //
+        // each('.filter-links li a', function(el) {
+        //     el.addEventListener('click', function(e) {
+        //         e.preventDefault();
+        //         filterLinks(el);
+        //     });
+        // });
+        //
+        //
+        // function filterLinks(element) {
+        //     // get text
+        //     var el = element.textContent,
+        //         // convert to lowercase
+        //         linksTolowerCase = el.toLowerCase();
+        //     // if all remove all elements
+        //     if (linksTolowerCase === 'all') {
+        //         // first show all view class
+        //         each('.view', function(e) {
+        //             e.classList.remove('view');
+        //         });
+        //         animate(items);
+        //     } else {
+        //         // if not click all remove all elements
+        //         each('.view', function(e) {
+        //             e.classList.remove('view');
+        //         });
+        //     }
+        //     // show animation for current elements
+        //     animate(document.querySelectorAll('.' + linksTolowerCase));
+        // };
+        // function each(el, callback) {
+        //     var allDivs = document.querySelectorAll(el),
+        //         alltoArr = Array.prototype.slice.call(allDivs);
+        //     Array.prototype.forEach.call(alltoArr, function(selector, index) {
+        //         if (callback) return callback(selector);
+        //     });
+        // };
+        // function animate(item) {
+        //     (function show(counter) {
+        //         setTimeout(function() {
+        //             item[counter].classList.add('view');
+        //             counter++;
+        //             if (counter < item.length) show(counter);
+        //         },50);
+        //     })(0);
+        // };
 
-        // filter on click
-        each('.filter-links li a', function(el) {
-            el.addEventListener('click', function(e) {
-                e.preventDefault();
-                filterLinks(el);
-            });
-        });
-
-        // filter links functions
-        function filterLinks(element) {
-            // get text
-            var el = element.textContent,
-                // convert to lowercase
-                linksTolowerCase = el.toLowerCase();
-            // if all remove all elements
-            if (el === 'All') {
-                // first show all view class
-                each('.view', function(e) {
-                    e.classList.remove('view');
-                });
-                // no show init animation
-                animate(items);
-            } else {
-                // if not click all remove all elements
-                each('.view', function(e) {
-                    e.classList.remove('view');
-                });
+        filterSelection("all")
+        function filterSelection(c) {
+            var x, i;
+            x = document.getElementsByClassName("item-filter");
+            if (c == "all") c = "";
+            // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+            for (i = 0; i < x.length; i++) {
+                w3RemoveClass(x[i], "view");
+                if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "view");
             }
-            // show animation for current elements
-            animate(document.querySelectorAll('.' + linksTolowerCase));
-        };
-        // forech arrays
-        function each(el, callback) {
-            var allDivs = document.querySelectorAll(el),
-                alltoArr = Array.prototype.slice.call(allDivs);
-            Array.prototype.forEach.call(alltoArr, function(selector, index) {
-                if (callback) return callback(selector);
+        }
+
+        // Show filtered elements
+        function w3AddClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+                if (arr1.indexOf(arr2[i]) == -1) {
+                    element.className += " " + arr2[i];
+                }
+            }
+        }
+
+        // Hide elements that are not selected
+        function w3RemoveClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+                while (arr1.indexOf(arr2[i]) > -1) {
+                    arr1.splice(arr1.indexOf(arr2[i]), 1);
+                }
+            }
+            element.className = arr1.join(" ");
+        }
+
+        // Add active class to the current control button (highlight it)
+        var btnContainer = document.getElementById("myBtnContainer");
+        var btns = btnContainer.getElementsByClassName("filter-link");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function() {
+                var current = document.getElementsByClassName("active");
+                current[0].className = current[0].className.replace(" active", "");
+                this.className += " active";
             });
-        };
-        // animate function
-        function animate(item) {
-            (function show(counter) {
-                setTimeout(function() {
-                    item[counter].classList.add('view');
-                    counter++;
-                    if (counter < item.length) show(counter);
-                },50);
-            })(0);
-        };
+        }
+
+
         $(document).ready(function() {
             $(".fancybox").fancybox({
                 openEffect	: 'none',
