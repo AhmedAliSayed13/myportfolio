@@ -130,7 +130,7 @@
                             </ul>
                         </li>
                         <li class="py-3">
-                            <span><i class="fa fa-check"></i>  March 2020 From   - Now ( Part Time- Remotely )</span>
+                            <span><i class="fa fa-check"></i> From March 2020    - Now ( Part Time- Remotely )</span>
                             <p>Worked  as  a Full Stack developer  at  Kabtech Corp Company
                                 .</p>
                             <span class="d-block">Technologies :</span>
