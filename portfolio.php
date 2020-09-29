@@ -2,10 +2,12 @@
     <html>
     <head>
         <meta charset='UTF-8'>
+        <link rel="shortcut icon" href="imgs/favicon.png">
+
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content=" portfolio web developer">
-        <meta name="keywords" content="portfolio web developer">
+        <meta name="description" content=" Ahmed Ali Portfolio">
+        <meta name="keywords" content="Ahmed Ali Portfolio">
         <meta name="author" content="Ahmed_Ali">
         <title>My Portfolio</title>
         <link rel='stylesheet' href='css/bootstrap.css' />
@@ -90,7 +92,7 @@
 
             </ul>
             <div class="cv-div d-none d-sm-none d-md-block">
-                <span><a href="Ahmed-Ali-CV.pdf"><i class="fas fa-download"></i> CV</a></span>
+                <span><a href="Ahmed-Ali-CV.pdf" target="_blank"><i class="fas fa-download"></i> CV</a></span>
             </div>
             <div class="copy-right d-none d-sm-none d-md-block">
                 <span>2020 © <a href="#"><span class="name"> Ahmed Ali</span></a>
@@ -106,6 +108,7 @@
                 <div class="col-lg-12">
                     <ul class="filter-links" id="myBtnContainer">
                         <li><a class="filter-link" onclick="filterSelection('all')" href="#">All</a></li>
+                        <li><a class="filter-link" onclick="filterSelection('travel2drive')" href="#">Travel2Drive</a></li>
                         <li><a class="filter-link" onclick="filterSelection('almaali')" href="#">Almaali</a></li>
                         <li><a class="filter-link" onclick="filterSelection('apptriner')" href="#">Apptriner</a></li>
                         <li><a class="filter-link" onclick="filterSelection('moe-char')" href="#">Moe-Char</a></li>
@@ -114,7 +117,7 @@
                         <li><a class="filter-link" onclick="filterSelection('market')" href="#">Market</a></li>
                         <li><a class="filter-link" onclick="filterSelection('moe')" href="#">Moe</a></li>
                         <li><a class="filter-link" onclick="filterSelection('pk')" href="#">PK</a></li>
-                        <li><a class="filter-link" onclick="filterSelection('travel2drive')" href="#">Travel2Drive</a></li>
+
                     </ul>
                 </div>
             </div>
@@ -279,8 +282,8 @@
                                     <li><span class="project-info-head">Client : </span>Almaali Medical Clinic</li>
                                     <li><span class="project-info-head">Service : </span>Web Development</li>
                                 </ul>
-                                <a href="http://167.172.191.180/" class="btn btn-info"><i class="fa fa-globe"></i>WebSite</a>
-                                <a class="btn btn-info" href="Ahmed-Ali-CV.pdf"><i class="fas fa-eye"></i> Ahmed Ali CV</a>
+                                <a href="http://167.172.191.180/" class="btn btn-info"><i class="fa fa-globe"></i> WebSite</a>
+                                <a class="btn btn-info" href="Ahmed-Ali-CV.pdf" target="_blank"><i class="fas fa-eye"></i> Ahmed Ali CV</a>
 
                             </div>
                         </div>
@@ -330,8 +333,8 @@
                                     <li><span class="project-info-head">Client : </span>Apptriner Company</li>
                                     <li><span class="project-info-head">Service : </span>Web Development</li>
                                 </ul>
-                                <a href="http://apptriner.com/" class="btn btn-info"><i class="fa fa-globe"></i>WebSite</a>
-                                <a class="btn btn-info" href="Ahmed-Ali-CV.pdf"><i class="fas fa-eye"></i> Ahmed Ali CV</a>
+                                <a href="http://apptriner.com/" class="btn btn-info"><i class="fa fa-globe"></i> WebSite</a>
+                                <a class="btn btn-info" href="Ahmed-Ali-CV.pdf" target="_blank"><i class="fas fa-eye"></i> Ahmed Ali CV</a>
 
                             </div>
                         </div>
@@ -383,8 +386,8 @@
                                     <li><span class="project-info-head">Client : </span>Ministry Of Education In Saudi Arabia</li>
                                     <li><span class="project-info-head">Service : </span>Web Development</li>
                                 </ul>
-                                <a href="http://35.156.184.175/wakalapm3/app_Login/" class="btn btn-info"><i class="fa fa-globe"></i>WebSite</a>
-                                <a class="btn btn-info" href="Ahmed-Ali-CV.pdf"><i class="fas fa-eye"></i> Ahmed Ali CV</a>
+                                <a href="http://35.156.184.175/wakalapm3/app_Login/" class="btn btn-info"><i class="fa fa-globe"></i> WebSite</a>
+                                <a class="btn btn-info" href="Ahmed-Ali-CV.pdf" target="_blank"><i class="fas fa-eye"></i> Ahmed Ali CV</a>
 
                             </div>
                         </div>
@@ -436,8 +439,8 @@
                                     <li><span class="project-info-head">Client : </span>Ministry Of Education In Saudi Arabia</li>
                                     <li><span class="project-info-head">Service : </span>Web Development</li>
                                 </ul>
-                                <a href="http://35.156.184.175/wakalapm3/app_Login/" class="btn btn-info"><i class="fa fa-globe"></i>WebSite</a>
-                                <a class="btn btn-info" href="Ahmed-Ali-CV.pdf"><i class="fas fa-eye"></i> Ahmed Ali CV</a>
+                                <a href="http://35.156.184.175/wakalapm3/app_Login/" class="btn btn-info"><i class="fa fa-globe"></i> WebSite</a>
+                                <a class="btn btn-info" href="Ahmed-Ali-CV.pdf" target="_blank"><i class="fas fa-eye"></i> Ahmed Ali CV</a>
 
                             </div>
                         </div>
@@ -490,8 +493,8 @@
                                     <li><span class="project-info-head">Client : </span>Jumeirah Company</li>
                                     <li><span class="project-info-head">Service : </span>Web Development</li>
                                 </ul>
-                                <a href="http://jumeirah-rs.com/website" class="btn btn-info"><i class="fa fa-globe"></i>WebSite</a>
-                                <a class="btn btn-info" href="Ahmed-Ali-CV.pdf"><i class="fas fa-eye"></i> Ahmed Ali CV</a>
+                                <a href="http://jumeirah-rs.com/website" class="btn btn-info"><i class="fa fa-globe"></i> WebSite</a>
+                                <a class="btn btn-info" href="Ahmed-Ali-CV.pdf" target="_blank"><i class="fas fa-eye"></i> Ahmed Ali CV</a>
 
                             </div>
                         </div>
@@ -543,8 +546,8 @@
                                         <li><span class="project-info-head">Client : </span>Jumeirah Company</li>
                                         <li><span class="project-info-head">Service : </span>Web Development</li>
                                     </ul>
-                                    <a href="https://market-website.herokuapp.com/" class="btn btn-info"><i class="fa fa-globe"></i>WebSite</a>
-                                    <a class="btn btn-info" href="Ahmed-Ali-CV.pdf"><i class="fas fa-eye"></i> Ahmed Ali CV</a>
+                                    <a href="https://market-website.herokuapp.com/" class="btn btn-info"><i class="fa fa-globe"></i> WebSite</a>
+                                    <a class="btn btn-info" href="Ahmed-Ali-CV.pdf" target="_blank"><i class="fas fa-eye"></i> Ahmed Ali CV</a>
 
                                 </div>
                             </div>
@@ -596,8 +599,8 @@
                                         <li><span class="project-info-head">Client : </span>Ministry Of Education In Saudi Arabia</li>
                                         <li><span class="project-info-head">Service : </span>Web Development</li>
                                     </ul>
-                                    <a href="http://35.156.184.175/wakala/" class="btn btn-info"><i class="fa fa-globe"></i>WebSite</a>
-                                    <a class="btn btn-info" href="Ahmed-Ali-CV.pdf"><i class="fas fa-eye"></i> Ahmed Ali CV</a>
+                                    <a href="http://35.156.184.175/wakala/" class="btn btn-info"><i class="fa fa-globe"></i> WebSite</a>
+                                    <a class="btn btn-info" href="Ahmed-Ali-CV.pdf" target="_blank"><i class="fas fa-eye"></i> Ahmed Ali CV</a>
 
                                 </div>
                             </div>
@@ -649,8 +652,8 @@
                                         <li><span class="project-info-head">Client : </span>PK Company</li>
                                         <li><span class="project-info-head">Service : </span>Web Development</li>
                                     </ul>
-                                    <a href="https://www.pksaudi.com/" class="btn btn-info"><i class="fa fa-globe"></i>WebSite</a>
-                                    <a class="btn btn-info" href="Ahmed-Ali-CV.pdf"><i class="fas fa-eye"></i> Ahmed Ali CV</a>
+                                    <a href="https://www.pksaudi.com/" class="btn btn-info"><i class="fa fa-globe"></i> WebSite</a>
+                                    <a class="btn btn-info" href="Ahmed-Ali-CV.pdf" target="_blank"><i class="fas fa-eye"></i> Ahmed Ali CV</a>
 
                                 </div>
                             </div>
@@ -702,8 +705,8 @@
                                         <li><span class="project-info-head">Client : </span>Travel2Drive Company</li>
                                         <li><span class="project-info-head">Service : </span>Web Development</li>
                                     </ul>
-                                    <a href="http://dev.travel2drive.com/travel2drive/" class="btn btn-info"><i class="fa fa-globe"></i>WebSite</a>
-                                    <a class="btn btn-info" href="Ahmed-Ali-CV.pdf"><i class="fas fa-eye"></i> Ahmed Ali CV</a>
+                                    <a href="http://dev.travel2drive.com/travel2drive/" class="btn btn-info"><i class="fa fa-globe"></i> WebSite</a>
+                                    <a class="btn btn-info" href="Ahmed-Ali-CV.pdf" target="_blank"><i class="fas fa-eye"></i> Ahmed Ali CV</a>
 
                                 </div>
                             </div>

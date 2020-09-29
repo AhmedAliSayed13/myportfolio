@@ -5,9 +5,10 @@
     <head>
         <meta charset='UTF-8'>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="shortcut icon" href="imgs/favicon.png">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content=" portfolio web developer">
-        <meta name="keywords" content="portfolio web developer">
+        <meta name="description" content="Ahmed Ali Portfolio">
+        <meta name="keywords" content="Ahmed Ali Portfolio">
         <meta name="author" content="Ahmed_Ali">
         <title>Ahmed Ali Portfolio</title>
         <link rel='stylesheet' href='css/bootstrap.css' />
@@ -121,6 +122,7 @@
                         <li><span class="title">Name:</span><span class="value"> Ahmed Ali</span></li>
                         <li><span class="title">Age:</span><span class="value"> 25 Years</span></li>
                         <li><span class="title">Address:</span><span class="value"> Imbaba - Giza - Egypt</span></li>
+                        <li><span class="title">Marital Status:</span><span class="value"> Single</span></li>
                         <li><span class="title">Military Status:</span><span class="value"> Exempted</span></li>
                     </ul>
                 </div>
