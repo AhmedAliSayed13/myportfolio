@@ -21,7 +21,7 @@
     </head>
 <body>
 <nav class="navbar navbar-expand-md  fixed-left">
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="#">
             <img src="imgs/myphoto.jpg" width="100%" height="auto" class="image1">
             <img src="imgs/myphoto2.jpg" width="100%" height="auto" class="image2">
             <h4 class="myname text-center">Ahmed Ali</h4>
