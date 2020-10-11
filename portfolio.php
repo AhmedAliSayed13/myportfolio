@@ -9,7 +9,7 @@
         <meta name="description" content=" Ahmed Ali Portfolio">
         <meta name="keywords" content="Ahmed Ali Portfolio">
         <meta name="author" content="Ahmed_Ali">
-        <title>My Portfolio</title>
+        <title>Ahmed Ali Protofolio</title>
         <link rel='stylesheet' href='css/bootstrap.css' />
         <link rel='stylesheet' href='css/animate.css'>
         <link rel='stylesheet' href='css/all.css' />
