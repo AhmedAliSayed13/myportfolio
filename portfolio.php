@@ -107,7 +107,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <ul class="filter-links" id="myBtnContainer">
-                        <li><a class="filter-link" onclick="filterSelection('all')" href="#">All</a></li>
+<!--                        <li><a class="filter-link" onclick="filterSelection('all')" href="#">All</a></li>-->
                         <li><a class="filter-link" onclick="filterSelection('travel2drive')" href="#">Travel2Drive</a></li>
                         <li><a class="filter-link" onclick="filterSelection('almaali')" href="#">Almaali</a></li>
                         <li><a class="filter-link" onclick="filterSelection('apptriner')" href="#">Apptriner</a></li>
@@ -819,7 +819,8 @@
         //     })(0);
         // };
 
-        filterSelection("all")
+        // filterSelection("all");
+        filterSelection("travel2drive");
         function filterSelection(c) {
             var x, i;
             x = document.getElementsByClassName("item-filter");
