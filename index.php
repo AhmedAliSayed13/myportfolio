@@ -109,15 +109,15 @@
                 <div class="carousel-item active">
                     <img class="d-block " src="imgs/b3.jpg" alt="First slide" >
                     <div class="carousel-caption " style="margin: 200px auto;">
-                        <h1>Ahmed Ali</h1>
-                        <h4 id="typer" data-text="I'm a Web Developer"></h4>
+                        <h1>Ahmed Ali Sayed</h1>
+                        <h4 id="typer" data-text="Full Stack Developer"></h4>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img class="d-block " src="imgs/b2.jpg" alt="Second slide" >
                     <div class="carousel-caption" style="margin: 200px auto;">
-                        <h1>Ahmed Ali</h1>
-                        <h4 id="typer2" data-text="I'm a Web Developer"></h4>
+                        <h1>Ahmed Ali Sayed</h1>
+                        <h4 id="typer2" data-text=" Full Stack Developer"></h4>
                     </div>
                 </div>
 

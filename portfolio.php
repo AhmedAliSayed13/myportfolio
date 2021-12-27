@@ -129,7 +129,7 @@
                 <?php for ($i=1;$i<=17;$i++){?>
                     <div class="col-lg-4 mt-4 float-left col-md-12 col-xs-12 item-filter playful scrollbar style-2 almaali">
                         <figure class="softeffect">
-                            <img src="imgs/portfolio/almaali/<?php echo $i;?>.png" class="img-responsive img-item-filter"   />
+                            <img src="imgs/portfolio/almaali/<?php echo $i;?>.png" class="img-responsive lazy img-item-filter"   />
                             <figcaption>
                                 <h4><a data-fancybox="gallery-almaali"  href="imgs/portfolio/almaali/<?php echo $i;?>.png"><i class="fas fa-eye"></i></a></h4>
                                 <p  data-toggle="modal" data-target="#Modal_almaali_<?php echo $i;?>">More Details</p>
@@ -143,7 +143,7 @@
                 <?php for ($i=1;$i<=6;$i++){?>
                 <div class="col-lg-4 mt-4 float-left col-md-12 col-xs-12 item-filter playful scrollbar style-2 apptriner">
                     <figure class="softeffect">
-                        <img src="imgs/portfolio/apptriner/<?php echo $i;?>.png" class="img-responsive img-item-filter"   />
+                        <img  src="imgs/portfolio/apptriner/<?php echo $i;?>.png" class="img-responsive lazy img-item-filter"   />
                         <figcaption>
                             <h4><a data-fancybox="gallery-apptriner"  href="imgs/portfolio/apptriner/<?php echo $i;?>.png"><i class="fas fa-eye"></i></a></h4>
                             <p  data-toggle="modal" data-target="#Modal_apptriner_<?php echo $i;?>">More Details</p>
@@ -155,7 +155,7 @@
                 <?php for ($i=1;$i<=8;$i++){?>
                 <div class="col-lg-4 mt-4 float-left col-md-12 col-xs-12 item-filter playful scrollbar style-2 moe-char">
                     <figure class="softeffect">
-                        <img src="imgs/portfolio/chart/<?php echo $i;?>.png" class="img-responsive img-item-filter"   />
+                        <img src="imgs/portfolio/chart/<?php echo $i;?>.png" class="img-responsive lazy img-item-filter"   />
                         <figcaption>
                             <h4><a data-fancybox="gallery-chart"   href="imgs/portfolio/chart/<?php echo $i;?>.png"><i class="fas fa-eye"></i></a></h4>
                             <p  data-toggle="modal" data-target="#Modal_chart_<?php echo $i;?>">More Details</p>
@@ -168,7 +168,7 @@
                 <?php for ($i=1;$i<=19;$i++){?>
                 <div class="col-lg-4 mt-4 float-left col-md-12 col-xs-12 item-filter playful scrollbar style-2 forms">
                     <figure class="softeffect">
-                        <img src="imgs/portfolio/forms/<?php echo $i;?>.png" class="img-responsive img-item-filter"   />
+                        <img src="imgs/portfolio/forms/<?php echo $i;?>.png" class="img-responsive lazy img-item-filter"   />
                         <figcaption>
                             <h4><a data-fancybox="gallery-forms"   href="imgs/portfolio/forms/<?php echo $i;?>.png"><i class="fas fa-eye"></i></a></h4>
                             <p  data-toggle="modal" data-target="#Modal_forms_<?php echo $i;?>">More Details</p>
@@ -181,7 +181,7 @@
                 <?php for ($i=1;$i<=9;$i++){?>
                 <div class="col-lg-4 mt-4 float-left col-md-12 col-xs-12 item-filter playful scrollbar style-2 jumeirah">
                     <figure class="softeffect">
-                        <img src="imgs/portfolio/jumeirah/<?php echo $i;?>.png" class="img-responsive img-item-filter"   />
+                        <img src="imgs/portfolio/jumeirah/<?php echo $i;?>.png" class="img-responsive lazy img-item-filter"   />
                         <figcaption>
                             <h4><a data-fancybox="gallery-jumeirah"   href="imgs/portfolio/jumeirah/<?php echo $i;?>.png"><i class="fas fa-eye"></i></a></h4>
                             <p  data-toggle="modal" data-target="#Modal_jumeirah_<?php echo $i;?>">More Details</p>
@@ -195,7 +195,7 @@
                 <?php for ($i=1;$i<=7;$i++){?>
                     <div class="col-lg-4 mt-4 float-left col-md-12 col-xs-12 item-filter playful scrollbar style-2 market">
                         <figure class="softeffect">
-                            <img src="imgs/portfolio/market/<?php echo $i;?>.png" class="img-responsive img-item-filter"   />
+                            <img src="imgs/portfolio/market/<?php echo $i;?>.png" class="img-responsive lazy img-item-filter"   />
                             <figcaption>
                                 <h4><a data-fancybox="gallery-market"   href="imgs/portfolio/market/<?php echo $i;?>.png"><i class="fas fa-eye"></i></a></h4>
                                 <p  data-toggle="modal" data-target="#Modal_market_<?php echo $i;?>">More Details</p>
@@ -208,7 +208,7 @@
                 <?php for ($i=1;$i<=8;$i++){?>
                     <div class="col-lg-4 mt-4 float-left col-md-12 col-xs-12 item-filter playful scrollbar style-2 moe">
                         <figure class="softeffect">
-                            <img src="imgs/portfolio/moe/<?php echo $i;?>.png" class="img-responsive img-item-filter"   />
+                            <img src="imgs/portfolio/moe/<?php echo $i;?>.png" class="img-responsive lazy img-item-filter"   />
                             <figcaption>
                                 <h4><a data-fancybox="gallery-moe"   href="imgs/portfolio/moe/<?php echo $i;?>.png"><i class="fas fa-eye"></i></a></h4>
                                 <p  data-toggle="modal" data-target="#Modal_moe_<?php echo $i;?>">More Details</p>
@@ -221,7 +221,7 @@
                 <?php for ($i=1;$i<=8;$i++){?>
                     <div class="col-lg-4 mt-4 float-left col-md-12 col-xs-12 item-filter playful scrollbar style-2 pk">
                         <figure class="softeffect">
-                            <img src="imgs/portfolio/pk/<?php echo $i;?>.png" class="img-responsive img-item-filter"   />
+                            <img src="imgs/portfolio/pk/<?php echo $i;?>.png" class="img-responsive lazy img-item-filter"   />
                             <figcaption>
                                 <h4><a data-fancybox="gallery-pk"   href="imgs/portfolio/pk/<?php echo $i;?>.png"><i class="fas fa-eye"></i></a></h4>
                                 <p  data-toggle="modal" data-target="#Modal_pk_<?php echo $i;?>">More Details</p>
@@ -234,7 +234,7 @@
                 <?php for ($i=1;$i<=19;$i++){?>
                     <div class="col-lg-4 mt-4 float-left col-md-12 col-xs-12 item-filter playful scrollbar style-2 travel2drive">
                         <figure class="softeffect">
-                            <img src="imgs/portfolio/travel2drive/<?php echo $i;?>.png" class="img-responsive img-item-filter"   />
+                            <img src="imgs/portfolio/travel2drive/<?php echo $i;?>.png" class="img-responsive lazy img-item-filter"   />
                             <figcaption>
                                 <h4><a data-fancybox="gallery-travel2drive"   href="imgs/portfolio/travel2drive/<?php echo $i;?>.png"><i class="fas fa-eye"></i></a></h4>
                                 <p  data-toggle="modal" data-target="#Modal_travel2drive_<?php echo $i;?>">More Details</p>
@@ -262,7 +262,7 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="item-filter-pop-up playful scrollbar style-2">
-                                    <img src="imgs/portfolio/almaali/<?php echo $i;?>.png" class="img-responsive img-item-filter"  />
+                                    <img src="imgs/portfolio/almaali/<?php echo $i;?>.png" class="img-responsive lazy img-item-filter"  />
                                 </div>
                             </div>
                             <div class="col-lg-6 project-details">
@@ -315,7 +315,7 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="item-filter-pop-up playful scrollbar style-2">
-                                    <img src="imgs/portfolio/apptriner/<?php echo $i;?>.png" class="img-responsive img-item-filter"  />
+                                    <img src="imgs/portfolio/apptriner/<?php echo $i;?>.png" class="img-responsive lazy img-item-filter"  />
                                 </div>
                             </div>
                             <div class="col-lg-6 project-details">
@@ -366,7 +366,7 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="item-filter-pop-up playful scrollbar style-2">
-                                    <img src="imgs/portfolio/chart/<?php echo $i;?>.png" class="img-responsive img-item-filter"  />
+                                    <img src="imgs/portfolio/chart/<?php echo $i;?>.png" class="img-responsive lazy img-item-filter"  />
                                 </div>
                             </div>
                             <div class="col-lg-6 project-details">
@@ -418,7 +418,7 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="item-filter-pop-up playful scrollbar style-2">
-                                    <img src="imgs/portfolio/forms/<?php echo $i;?>.png" class="img-responsive img-item-filter"  />
+                                    <img src="imgs/portfolio/forms/<?php echo $i;?>.png" class="img-responsive lazy img-item-filter"  />
                                 </div>
                             </div>
                             <div class="col-lg-6 project-details">
@@ -472,7 +472,7 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="item-filter-pop-up playful scrollbar style-2">
-                                    <img src="imgs/portfolio/jumeirah/<?php echo $i;?>.png" class="img-responsive img-item-filter"  />
+                                    <img src="imgs/portfolio/jumeirah/<?php echo $i;?>.png" class="img-responsive lazy img-item-filter"  />
                                 </div>
                             </div>
                             <div class="col-lg-6 project-details">
@@ -526,7 +526,7 @@
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="item-filter-pop-up playful scrollbar style-2">
-                                        <img src="imgs/portfolio/market/<?php echo $i;?>.png" class="img-responsive img-item-filter"  />
+                                        <img src="imgs/portfolio/market/<?php echo $i;?>.png" class="img-responsive lazy img-item-filter"  />
                                     </div>
                                 </div>
                                 <div class="col-lg-6 project-details">
@@ -578,7 +578,7 @@
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="item-filter-pop-up playful scrollbar style-2">
-                                        <img src="imgs/portfolio/moe/<?php echo $i;?>.png" class="img-responsive img-item-filter"  />
+                                        <img src="imgs/portfolio/moe/<?php echo $i;?>.png" class="img-responsive lazy img-item-filter"  />
                                     </div>
                                 </div>
                                 <div class="col-lg-6 project-details">
@@ -631,7 +631,7 @@
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="item-filter-pop-up playful scrollbar style-2">
-                                        <img src="imgs/portfolio/pk/<?php echo $i;?>.png" class="img-responsive img-item-filter"  />
+                                        <img src="imgs/portfolio/pk/<?php echo $i;?>.png" class="img-responsive lazy img-item-filter"  />
                                     </div>
                                 </div>
                                 <div class="col-lg-6 project-details">
@@ -684,7 +684,7 @@
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="item-filter-pop-up playful scrollbar style-2">
-                                        <img src="imgs/portfolio/travel2drive/<?php echo $i;?>.png" class="img-responsive img-item-filter"  />
+                                        <img src="imgs/portfolio/travel2drive/<?php echo $i;?>.png" class="img-responsive lazy img-item-filter"  />
                                     </div>
                                 </div>
                                 <div class="col-lg-6 project-details">
@@ -732,6 +732,7 @@
 <script src="js/main.js"></script>
 <script src="js/three.r95.min.js"></script>
 <script src="js/vanta.net.min.js"></script>
+<script src="js/jquery.lazy.min.js"></script>
 
 <script src="js/wow.js"></script>
 <script>new WOW().init();
@@ -874,6 +875,10 @@
                 openEffect	: 'none',
                 closeEffect	: 'none'
             });
+        });
+
+        $(function() {
+            $('.lazy').lazy();
         });
     </script>
 </body>

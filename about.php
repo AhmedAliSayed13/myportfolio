@@ -111,7 +111,7 @@
                 <div class="col-md-6 col-sm-12 py-4">
                     <h3>Full Stack Developer</h3>
 
-                    <p>Dynamic and creative Wed developer with 1 year of resume in developing Laravel and Wordpress Website,
+                    <p>Dynamic and creative Wed developer with 3 year of resume in developing Laravel and Wordpress Website,
                         designing, developing, integrating, testing, and supporting Responsive Websites for PC and mobile and tablet devices.</p>
 
 
@@ -120,7 +120,7 @@
                     <h3>Personal Information</h3>
                     <ul>
                         <li><span class="title">Name:</span><span class="value"> Ahmed Ali</span></li>
-                        <li><span class="title">Age:</span><span class="value"> 25 Years</span></li>
+                        <li><span class="title">Age:</span><span class="value"> 26 Years</span></li>
                         <li><span class="title">Address:</span><span class="value"> Imbaba - Giza - Egypt</span></li>
                         <li><span class="title">Marital Status:</span><span class="value"> Single</span></li>
                         <li><span class="title">Military Status:</span><span class="value"> Exempted</span></li>

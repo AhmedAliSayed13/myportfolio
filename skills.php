@@ -118,8 +118,22 @@
                         <div class="col-lg-3 float-left text-center ">
                             <div class="skill-item">
                                 <i class="devicon-wordpress-plain-wordmark colored font-icon"></i>
-                                <h2 class="item-precentage" ><span class="counter"> 92 </span><span>%</span></h2>
+                                <h2 class="item-precentage" ><span class="counter"> 95 </span><span>%</span></h2>
                                 <p class="item-title">Wordpress</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 float-left text-center ">
+                            <div class="skill-item">
+                                <img src="imgs/skills/Fat_Free.png" width="220px">
+                                <h2 class="item-precentage" ><span class="counter"> 90 </span><span>%</span></h2>
+                                <p class="item-title">Fat Free</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 float-left text-center ">
+                            <div class="skill-item">
+                                <i class="devicon-codeigniter-plain-wordmark colored font-icon"></i>
+                                <h2 class="item-precentage" ><span class="counter"> 90 </span><span>%</span></h2>
+                                <p class="item-title">Codeigniter</p>
                             </div>
                         </div>
                         <div class="col-lg-3 float-left text-center ">
@@ -222,6 +236,20 @@
                         </div>
                         <div class="col-lg-3 float-left text-center ">
                             <div class="skill-item">
+                                <i class="devicon-firebase-plain colored font-icon"></i>
+                                <h2 class="item-precentage" ><span class="counter"> 70 </span><span>%</span></h2>
+                                <p class="item-title">Firebase</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 float-left text-center ">
+                            <div class="skill-item">
+                                <i class="devicon-trello-plain colored font-icon"></i>
+                                <h2 class="item-precentage" ><span class="counter"> 95 </span><span>%</span></h2>
+                                <p class="item-title">trello</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 float-left text-center ">
+                            <div class="skill-item">
                                 <img src="imgs/skills/json.png">
                                 <h2 class="item-precentage" ><span class="counter"> 65 </span><span>%</span></h2>
                                 <p class="item-title">Json</p>
@@ -234,6 +262,7 @@
                                 <p class="item-title">ajax</p>
                             </div>
                         </div>
+                        
 
                     </div>
                 </div>
