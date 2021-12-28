@@ -111,9 +111,28 @@
                     <h3>Experience</h3>
                     <ul class="resume">
                         <li class="py-2">
-                            <span><i class="fa fa-check"></i>  From November 2018 - Now </span>
+                            <span><i class="fa fa-check"></i>  From November 2019 - Now </span>
                             <p>Worked  as  a web developer (Full Stack) at  PK company for Programming
                                 (6 October- Giza).</p>
+                            <span class="d-block">Technologies :</span>
+                            <ul class="py-1 Technologies">
+                                <li>Laravel</li> |
+                                <li>WordPress</li> |
+                                <li>PHP</li> |
+                                <li>Html</li> |
+                                <li>Css</li> |
+                                <li>Sasa</li> |
+                                <li>Vue js</li> |
+                                <li>Javascript/Jquery</li> |
+                                <li>Bootstrap</li>|
+                                <li>GIT</li> |
+                                <li>Database(Mysql/sql)</li> |
+                            </ul>
+                        </li>
+                        <li class="py-2">
+                            <span><i class="fa fa-check"></i>  From November 2019 - october 2018 ( Full Time- Remotely )</span>
+                            <p>Worked as a (Full Stack developer) at  Rekaz company 
+                                (Remotely- Saudi Arabia).</p>
                             <span class="d-block">Technologies :</span>
                             <ul class="py-1 Technologies">
                                 <li>Laravel</li> |
