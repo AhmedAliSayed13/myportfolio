@@ -111,7 +111,7 @@
                         <li><a class="filter-link" onclick="filterSelection('travel2drive')" href="#">Travel2Drive</a></li>
                         <li><a class="filter-link" onclick="filterSelection('almaali')" href="#">Almaali</a></li>
                         <li><a class="filter-link" onclick="filterSelection('apptriner')" href="#">Apptriner</a></li>
-                        <li><a class="filter-link" onclick="filterSelection('moe-char')" href="#">Moe-Char</a></li>
+                        <li><a class="filter-link" onclick="filterSelection('char')" href="#">Moe-Char</a></li>
                         <li><a class="filter-link" onclick="filterSelection('jumeirah')" href="#">Jumeirah</a></li>
                         <li><a class="filter-link" onclick="filterSelection('forms')" href="#">Forms</a></li>
                         <li><a class="filter-link" onclick="filterSelection('market')" href="#">Market</a></li>
@@ -123,6 +123,8 @@
                         <li><a class="filter-link" onclick="filterSelection('comax')" href="#">Comax Group</a></li>
                         <li><a class="filter-link" onclick="filterSelection('4a')" href="#">4A Tech</a></li>
                         <li><a class="filter-link" onclick="filterSelection('smart')" href="#">Smart Whats</a></li>
+                        <li><a class="filter-link" onclick="filterSelection('housing')" href="#">College Housing</a></li>
+                        <li><a class="filter-link" onclick="filterSelection('cyper')" href="#">Cyper security</a></li>
 
                     </ul>
                 </div>
@@ -159,7 +161,7 @@
                 <?php }?>
 
                 <?php for ($i=1;$i<=8;$i++){?>
-                    <div class="col-lg-4 mt-4 float-left col-md-12 col-xs-12 item-filter playful scrollbar style-2 moe-char">
+                    <div class="col-lg-4 mt-4 float-left col-md-12 col-xs-12 item-filter playful scrollbar style-2 char">
                         <figure class="softeffect">
                             <img src="imgs/portfolio/chart/<?php echo $i;?>.png" class="img-responsive lazy img-item-filter"   />
                             <figcaption>
@@ -312,6 +314,28 @@
                             <figcaption>
                                 <h4><a data-fancybox="gallery-smart"   href="imgs/portfolio/smart/<?php echo $i;?>.png"><i class="fas fa-eye"></i></a></h4>
                                 <p  data-toggle="modal" data-target="#Modal_smart_<?php echo $i;?>">More Details</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                <?php }?>
+                <?php for ($i=1;$i<=10;$i++){?>
+                    <div class="col-lg-4 mt-4 float-left col-md-12 col-xs-12 item-filter playful scrollbar style-2 housing">
+                        <figure class="softeffect">
+                            <img src="imgs/portfolio/housing/<?php echo $i;?>.png" class="img-responsive lazy img-item-filter"   />
+                            <figcaption>
+                                <h4><a data-fancybox="gallery-housing"   href="imgs/portfolio/housing/<?php echo $i;?>.png"><i class="fas fa-eye"></i></a></h4>
+                                <p  data-toggle="modal" data-target="#Modal_housing_<?php echo $i;?>">More Details</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                <?php }?>
+                <?php for ($i=1;$i<=4;$i++){?>
+                    <div class="col-lg-4 mt-4 float-left col-md-12 col-xs-12 item-filter playful scrollbar style-2 cyper">
+                        <figure class="softeffect">
+                            <img src="imgs/portfolio/cyper/<?php echo $i;?>.png" class="img-responsive lazy img-item-filter"   />
+                            <figcaption>
+                                <h4><a data-fancybox="gallery-cyper"   href="imgs/portfolio/cyper/<?php echo $i;?>.png"><i class="fas fa-eye"></i></a></h4>
+                                <p  data-toggle="modal" data-target="#Modal_housing_<?php echo $i;?>">More Details</p>
                             </figcaption>
                         </figure>
                     </div>
@@ -1090,6 +1114,110 @@
                                     <header>Project Informations</header>
                                     <ul class="ul-project-describe">
                                         <li><span class="project-info-head">Client : </span>Smart Company</li>
+                                        <li><span class="project-info-head">Service : </span>Web Development</li>
+                                    </ul>
+                                    <a href="https://ozone.social/" class="btn btn-info"><i class="fa fa-globe"></i> WebSite</a>
+                                    <a class="btn btn-info" href="Ahmed-Ali-CV.pdf" target="_blank"><i class="fas fa-eye"></i> Ahmed Ali CV</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <div>
+                            <button type="button" class="btn btn-danger" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span> Close
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <?php }?>
+    <?php for ($i=1;$i<=10;$i++){?>
+        <div class="modal fade" id="Modal_housing_<?php echo $i;?>" tabindex="-1" role="dialog" aria-labelledby="Modal_housing_<?php echo $i;?>" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">College Housing </h5>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="item-filter-pop-up playful scrollbar style-2">
+                                        <img src="imgs/portfolio/cyper/<?php echo $i;?>.png" class="img-responsive lazy img-item-filter"  />
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 project-details">
+                                    <header> Technical Skills</header>
+                                    <ul class="ul-project-describe">
+                                        <li>Responsive WebSite with flex box and media Query..</li>
+                                        <li>Using Wordpress  .</li>
+                                        <li>Using Mysql.</li>
+                                        <li>Using HTML,CSS,Boostrap.</li>
+                                        <li>Using Jquery,Javascript.</li>
+                                        <li>Using Git.</li>
+                                        <li>MVC.</li>
+                                        
+                                        
+                                    </ul>
+                                    <header>Project Informations</header>
+                                    <ul class="ul-project-describe">
+                                        <li><span class="project-info-head">Client : </span>College Housing Company</li>
+                                        <li><span class="project-info-head">Service : </span>Web Development</li>
+                                    </ul>
+                                    <a href="https://ozone.social/" class="btn btn-info"><i class="fa fa-globe"></i> WebSite</a>
+                                    <a class="btn btn-info" href="Ahmed-Ali-CV.pdf" target="_blank"><i class="fas fa-eye"></i> Ahmed Ali CV</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <div>
+                            <button type="button" class="btn btn-danger" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span> Close
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <?php }?>
+    <?php for ($i=1;$i<=4;$i++){?>
+        <div class="modal fade" id="Modal_cyper_<?php echo $i;?>" tabindex="-1" role="dialog" aria-labelledby="Modal_cyper_<?php echo $i;?>" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Cyper security</h5>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="item-filter-pop-up playful scrollbar style-2">
+                                        <img src="imgs/portfolio/cyper/<?php echo $i;?>.png" class="img-responsive lazy img-item-filter"  />
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 project-details">
+                                    <header> Technical Skills</header>
+                                    <ul class="ul-project-describe">
+                                        <li>Responsive WebSite with flex box and media Query..</li>
+                                        <li>Using Wordpress  .</li>
+                                        <li>Using Mysql.</li>
+                                        <li>Using HTML,CSS,Boostrap.</li>
+                                        <li>Using Jquery,Javascript.</li>
+                                        <li>Using Git.</li>
+                                        <li>MVC.</li>
+                                        
+                                        
+                                    </ul>
+                                    <header>Project Informations</header>
+                                    <ul class="ul-project-describe">
+                                        <li><span class="project-info-head">Client : </span>Cyper security Company</li>
                                         <li><span class="project-info-head">Service : </span>Web Development</li>
                                     </ul>
                                     <a href="https://ozone.social/" class="btn btn-info"><i class="fa fa-globe"></i> WebSite</a>
