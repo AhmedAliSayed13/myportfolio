@@ -125,6 +125,8 @@
                         <li><a class="filter-link" onclick="filterSelection('smart')" href="#">Smart Whats</a></li>
                         <li><a class="filter-link" onclick="filterSelection('housing')" href="#">College Housing</a></li>
                         <li><a class="filter-link" onclick="filterSelection('cyper')" href="#">Cyper security</a></li>
+                        <li><a class="filter-link" onclick="filterSelection('kpi')" href="#">KPI</a></li>
+                        <li><a class="filter-link" onclick="filterSelection('school')" href="#">Buraydah School</a></li>
 
                     </ul>
                 </div>
@@ -335,7 +337,30 @@
                             <img src="imgs/portfolio/cyper/<?php echo $i;?>.png" class="img-responsive lazy img-item-filter"   />
                             <figcaption>
                                 <h4><a data-fancybox="gallery-cyper"   href="imgs/portfolio/cyper/<?php echo $i;?>.png"><i class="fas fa-eye"></i></a></h4>
-                                <p  data-toggle="modal" data-target="#Modal_housing_<?php echo $i;?>">More Details</p>
+                                <p  data-toggle="modal" data-target="#Modal_cyper_<?php echo $i;?>">More Details</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                <?php }?>
+
+                <?php for ($i=1;$i<=12;$i++){?>
+                    <div class="col-lg-4 mt-4 float-left col-md-12 col-xs-12 item-filter playful scrollbar style-2 kpi">
+                        <figure class="softeffect">
+                            <img src="imgs/portfolio/kpi/<?php echo $i;?>.png" class="img-responsive lazy img-item-filter"   />
+                            <figcaption>
+                                <h4><a data-fancybox="gallery-kpi"   href="imgs/portfolio/kpi/<?php echo $i;?>.png"><i class="fas fa-eye"></i></a></h4>
+                                <p  data-toggle="modal" data-target="#Modal_kpi_<?php echo $i;?>">More Details</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                <?php }?>
+                <?php for ($i=1;$i<=22;$i++){?>
+                    <div class="col-lg-4 mt-4 float-left col-md-12 col-xs-12 item-filter playful scrollbar style-2 school">
+                        <figure class="softeffect">
+                            <img src="imgs/portfolio/school/<?php echo $i;?>.png" class="img-responsive lazy img-item-filter"   />
+                            <figcaption>
+                                <h4><a data-fancybox="gallery-school"   href="imgs/portfolio/school/<?php echo $i;?>.png"><i class="fas fa-eye"></i></a></h4>
+                                <p  data-toggle="modal" data-target="#Modal_school_<?php echo $i;?>">More Details</p>
                             </figcaption>
                         </figure>
                     </div>
@@ -1218,6 +1243,110 @@
                                     <header>Project Informations</header>
                                     <ul class="ul-project-describe">
                                         <li><span class="project-info-head">Client : </span>Cyper security Company</li>
+                                        <li><span class="project-info-head">Service : </span>Web Development</li>
+                                    </ul>
+                                    <a href="https://ozone.social/" class="btn btn-info"><i class="fa fa-globe"></i> WebSite</a>
+                                    <a class="btn btn-info" href="Ahmed-Ali-CV.pdf" target="_blank"><i class="fas fa-eye"></i> Ahmed Ali CV</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <div>
+                            <button type="button" class="btn btn-danger" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span> Close
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <?php }?>
+    <?php for ($i=1;$i<=12;$i++){?>
+        <div class="modal fade" id="Modal_kpi_<?php echo $i;?>" tabindex="-1" role="dialog" aria-labelledby="Modal_kpi_<?php echo $i;?>" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">KPI</h5>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="item-filter-pop-up playful scrollbar style-2">
+                                        <img src="imgs/portfolio/kpi/<?php echo $i;?>.png" class="img-responsive lazy img-item-filter"  />
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 project-details">
+                                    <header> Technical Skills</header>
+                                    <ul class="ul-project-describe">
+                                        <li>Responsive WebSite with flex box and media Query..</li>
+                                        <li>Using Wordpress  .</li>
+                                        <li>Using Mysql.</li>
+                                        <li>Using HTML,CSS,Boostrap.</li>
+                                        <li>Using Jquery,Javascript.</li>
+                                        <li>Using Git.</li>
+                                        <li>MVC.</li>
+                                        
+                                        
+                                    </ul>
+                                    <header>Project Informations</header>
+                                    <ul class="ul-project-describe">
+                                        <li><span class="project-info-head">Client : </span>kpi</li>
+                                        <li><span class="project-info-head">Service : </span>Web Development</li>
+                                    </ul>
+                                    <a href="https://ozone.social/" class="btn btn-info"><i class="fa fa-globe"></i> WebSite</a>
+                                    <a class="btn btn-info" href="Ahmed-Ali-CV.pdf" target="_blank"><i class="fas fa-eye"></i> Ahmed Ali CV</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <div>
+                            <button type="button" class="btn btn-danger" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span> Close
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <?php }?>
+    <?php for ($i=1;$i<=22;$i++){?>
+        <div class="modal fade" id="Modal_school_<?php echo $i;?>" tabindex="-1" role="dialog" aria-labelledby="Modal_school_<?php echo $i;?>" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">school</h5>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="item-filter-pop-up playful scrollbar style-2">
+                                        <img src="imgs/portfolio/school/<?php echo $i;?>.png" class="img-responsive lazy img-item-filter"  />
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 project-details">
+                                    <header> Technical Skills</header>
+                                    <ul class="ul-project-describe">
+                                        <li>Responsive WebSite with flex box and media Query..</li>
+                                        <li>Using Wordpress  .</li>
+                                        <li>Using Mysql.</li>
+                                        <li>Using HTML,CSS,Boostrap.</li>
+                                        <li>Using Jquery,Javascript.</li>
+                                        <li>Using Git.</li>
+                                        <li>MVC.</li>
+                                        
+                                        
+                                    </ul>
+                                    <header>Project Informations</header>
+                                    <ul class="ul-project-describe">
+                                        <li><span class="project-info-head">Client : </span>school</li>
                                         <li><span class="project-info-head">Service : </span>Web Development</li>
                                     </ul>
                                     <a href="https://ozone.social/" class="btn btn-info"><i class="fa fa-globe"></i> WebSite</a>
