@@ -36,29 +36,35 @@
             <ul class="navbar-nav lists" id="lists">
                 <li class="nav-item" data-target="home">
                     
-                    <a class="nav-link" href="index.php" >
+                    <a class="nav-link" href="./index.php" >
                         <i class="fas fa-home"></i>  Home</a>
                 </li>
                 <li class="nav-item" data-target="about">
                     
-                    <a class="nav-link" href="about.php"> <i class="fas fa-user"></i>  About Me</a>
+                    <a class="nav-link" href="./about.php"> <i class="fas fa-user"></i>  About Me</a>
                 </li>
                 <li class="nav-item" data-target="skills">
 
-                    <a class="nav-link" href="skills.php">  <i class="fas fa-list"></i>  Skills</a>
+                    <a class="nav-link" href="./skills.php">  <i class="fas fa-list"></i>  Skills</a>
                 </li>
                 <li class="nav-item " data-target="resume">
                    
-                    <a class="nav-link active" href="experience.php">  <i class="fas fa-id-badge"></i>  Experience</a>
+                    <a class="nav-link active" href="./experience.php">  <i class="fas fa-id-badge"></i>  Experience</a>
                 </li>
-                <li class="nav-item" data-target="Portfolio">
-                   
-                    <a class="nav-link" href="portfolio.php">  <i class="fas fa-briefcase"></i>  Portfolio</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-briefcase"></i>  Portfolio
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="portfolio/Travel2Drive.php">Travel2Drive</a>
+                    
+                    </div>
                 </li>
                 <li class="nav-item" data-target="Contact">
                    
-                    <a class="nav-link" href="contact.php">  <i class="far fa-envelope"></i>  Contact Me</a>
+                    <a class="nav-link" href="./contact.php">  <i class="far fa-envelope"></i>  Contact Me</a>
                 </li>
+                
 
             </ul>
             <ul class="navbar-nav list-inline">

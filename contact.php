@@ -2,7 +2,7 @@
     <html>
 
 
-    
+
     <head>
         <meta charset='UTF-8'>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -38,12 +38,12 @@
         <div class=" navbar-collapse collapse hide" id="navbarsExampleDefault">
             <ul class="navbar-nav lists" id="lists">
                 <li class="nav-item" data-target="home">
-                    
+
                     <a class="nav-link" href="index.php" >
                         <i class="fas fa-home"></i>  Home</a>
                 </li>
                 <li class="nav-item" data-target="about">
-                    
+
                     <a class="nav-link" href="about.php"> <i class="fas fa-user"></i>  About Me</a>
                 </li>
                 <li class="nav-item" data-target="skills">
@@ -51,15 +51,15 @@
                     <a class="nav-link" href="skills.php">  <i class="fas fa-list"></i>  Skills</a>
                 </li>
                 <li class="nav-item" data-target="resume">
-                   
+
                     <a class="nav-link" href="experience.php">  <i class="fas fa-id-badge"></i>  Experience</a>
                 </li>
                 <li class="nav-item" data-target="Portfolio">
-                   
+
                     <a class="nav-link" href="portfolio.php">  <i class="fas fa-briefcase"></i>  Portfolio</a>
                 </li>
                 <li class="nav-item " data-target="Contact">
-                   
+
                     <a class="nav-link active" href="contact.php">  <i class="far fa-envelope"></i>  Contact Me</a>
                 </li>
 
@@ -101,7 +101,7 @@
 
         </div>
     </nav>
-    
+
 
 
     <section class="contact wow slideInLeft" id="contact">
@@ -165,7 +165,7 @@
 
     </section>
 
-    
+
 <script src="js/jquery-3.4.1.min.js"></script>
 <script src='js/bootstrap.min.js'></script>
 <script src="js/html5shiv.min.js"></script>

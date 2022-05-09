@@ -635,3 +635,6 @@ figcaption i {
     color: var(--pinkC)!important;
     font-size: 20px;
 }
+.navbar.fixed-left .navbar-nav .nav-item .dropdown-menu{
+  left: 65% !important;
+}
